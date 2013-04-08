@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.10.22)  28 MAR 2013 14:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.10.22)  8 APR 2013 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -249,42 +249,37 @@ Overfull \hbox (1.10716pt too wide) in paragraph at lines 133--135
 File: waveguide.1 Graphic file (type mps)
  [MP to PDF]
 (./waveguide.1) [3] [4]
-Overfull \hbox (11.76784pt too wide) in paragraph at lines 553--558
+Overfull \hbox (11.76784pt too wide) in paragraph at lines 551--556
 \OT1/cmr/m/n/10.95 to trans-form the ge-om-e-try into a straight hor-i-zon-tal 
 chan-nel []
  []
 
 File: waveguide.3 Graphic file (type mps)
 [MP to PDF] (./waveguide.3) [5] [6] [7] [8] [9] [10]
-Overfull \hbox (19.0812pt too wide) in paragraph at lines 960--960
+Overfull \hbox (19.0812pt too wide) in paragraph at lines 958--958
 []\OT1/cmr/bx/n/14.4 Combining the Blocks - the Build-ing Block Method 
  []
 
 File: BBMwg.1 Graphic file (type mps)
-[MP to PDF] (./BBMwg.1) [11]
-Overfull \hbox (18.69836pt too wide) in paragraph at lines 1005--1028
- [] 
- []
-
-[12] <waveguide.jpg, id=63, 719.8092pt x 223.3143pt>
+[MP to PDF] (./BBMwg.1) [11] <waveguide.jpg, id=60, 719.8092pt x 223.3143pt>
 File: waveguide.jpg Graphic file (type jpg)
- <use waveguide.jpg>
-Package pdftex.def Info: waveguide.jpg used on input line 1088.
-(pdftex.def)             Requested size: 360.0pt x 111.68753pt.
 
-[13 <./waveguide.jpg>] <sc.jpg, id=68, 1204.5pt x 903.375pt>
+<use waveguide.jpg>
+Package pdftex.def Info: waveguide.jpg used on input line 1093.
+(pdftex.def)             Requested size: 360.0pt x 111.68753pt.
+ [12] <sc.jpg, id=64, 1204.5pt x 903.375pt>
 File: sc.jpg Graphic file (type jpg)
  <use sc.jpg>
-Package pdftex.def Info: sc.jpg used on input line 1155.
+Package pdftex.def Info: sc.jpg used on input line 1160.
 (pdftex.def)             Requested size: 161.9989pt x 121.49547pt.
 
-<bc.jpg, id=69, 1204.5pt x 903.375pt>
+<bc.jpg, id=65, 1204.5pt x 903.375pt>
 File: bc.jpg Graphic file (type jpg)
  <use bc.jpg>
-Package pdftex.def Info: bc.jpg used on input line 1156.
+Package pdftex.def Info: bc.jpg used on input line 1161.
 (pdftex.def)             Requested size: 161.9989pt x 121.49547pt.
 
-Overfull \hbox (7.92961pt too wide) in paragraph at lines 1145--1161
+Overfull \hbox (7.92961pt too wide) in paragraph at lines 1150--1166
 \OT1/cmr/m/n/10.95 In (46[]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML
 /cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.
 95 to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, 
@@ -295,42 +290,44 @@ T1/cmr/m/n/10.95 15\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.9
 5 :\OT1/cmr/m/n/10.95 85)[]$
  []
 
-[14 <./sc.jpg> <./bc.jpg>] <phin1a.jpg, id=74, 1204.5pt x 903.375pt>
+[13 <./waveguide.jpg>] [14 <./sc.jpg> <./bc.jpg>]
+<phin1a.jpg, id=74, 1204.5pt x 903.375pt>
 File: phin1a.jpg Graphic file (type jpg)
-
-<use phin1a.jpg>
-Package pdftex.def Info: phin1a.jpg used on input line 1217.
+ <use phin1a.jpg>
+Package pdftex.def Info: phin1a.jpg used on input line 1222.
 (pdftex.def)             Requested size: 359.99274pt x 85.35284pt.
- <phin2a.jpg, id=75, 1204.5pt x 903.375pt>
+
+<phin2a.jpg, id=75, 1204.5pt x 903.375pt>
 File: phin2a.jpg Graphic file (type jpg)
  <use phin2a.jpg>
-Package pdftex.def Info: phin2a.jpg used on input line 1219.
+Package pdftex.def Info: phin2a.jpg used on input line 1224.
 (pdftex.def)             Requested size: 359.99274pt x 85.35284pt.
 
 <phin3a.jpg, id=76, 1204.5pt x 903.375pt>
 File: phin3a.jpg Graphic file (type jpg)
  <use phin3a.jpg>
-Package pdftex.def Info: phin3a.jpg used on input line 1221.
+Package pdftex.def Info: phin3a.jpg used on input line 1226.
 (pdftex.def)             Requested size: 359.99274pt x 85.35284pt.
 
 <phitot3a.jpg, id=77, 786.94pt x 207.77625pt>
 File: phitot3a.jpg Graphic file (type jpg)
  <use phitot3a.jpg>
-Package pdftex.def Info: phitot3a.jpg used on input line 1236.
+Package pdftex.def Info: phitot3a.jpg used on input line 1241.
 (pdftex.def)             Requested size: 360.0pt x 95.04877pt.
- [15 <./phin1a.jpg> <./phin2a.jpg> <./phin3a.jpg>]
-<FEMvsFourier.jpg, id=81, 1204.5pt x 903.375pt>
+
+<FEMvsFourier.jpg, id=78, 1204.5pt x 903.375pt>
 File: FEMvsFourier.jpg Graphic file (type jpg)
  <use FEMvsFourier.jpg>
-Package pdftex.def Info: FEMvsFourier.jpg used on input line 1291.
+Package pdftex.def Info: FEMvsFourier.jpg used on input line 1296.
 (pdftex.def)             Requested size: 359.99274pt x 142.25475pt.
- [16 <./phitot3a.jpg>] <T_N.jpg, id=85, 1204.5pt x 903.375pt>
+ [15 <./phin1a.jpg> <./phin2a.jpg> <./phin3a.jpg>] [16 <./phitot3a.jpg>]
+<T_N.jpg, id=85, 1204.5pt x 903.375pt>
 File: T_N.jpg Graphic file (type jpg)
  <use T_N.jpg>
-Package pdftex.def Info: T_N.jpg used on input line 1385.
+Package pdftex.def Info: T_N.jpg used on input line 1390.
 (pdftex.def)             Requested size: 251.99675pt x 142.25475pt.
- [17 <./FEMvsFourier.jpg>] (./combinedwaveguide.bbl [18 <./T_N.jpg>]) [19]
-(./combinedwaveguide.aux) ) 
+ [17 <./FEMvsFourier.jpg>]
+(./combinedwaveguide.bbl [18 <./T_N.jpg>]) [19] (./combinedwaveguide.aux) ) 
 Here is how much of TeX's memory you used:
  2897 strings out of 493485
  36710 string characters out of 3143525
@@ -339,30 +336,31 @@ Here is how much of TeX's memory you used:
  16957 words of font info for 61 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,18n,24p,449b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb>
-Output written on combinedwaveguide.pdf (19 pages, 820815 bytes).
+</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb>
+Output written on combinedwaveguide.pdf (19 pages, 820601 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams

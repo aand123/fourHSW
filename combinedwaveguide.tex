@@ -163,8 +163,6 @@ problem and a detailed description of the techniques used to solve
 it. Finally, some final comments are included in
 Section~\ref{sec:conclusion}.
 
-% \section{The Building Block Method}
-% \label{sec:BBM}
 \section{Preliminaries}
 \label{sec:prel}
 
@@ -1000,32 +998,39 @@ the beginning (left end) of $\Omega_1$, $t=t_1=0$ at the border between
 $\Omega_1$ and $\Omega_2$, $t=t_2=\ell$ at the border between $\Omega_2$
 and $\Omega_3$, assuming that the length of $\Omega_2$ is $\ell$, 
  and finally $t=t_3$ at the end of
-$\Omega_3$. Furthermore, we use the following denotation:
-\begin{center}
-  \begin{tabular}{ll}
-    Symbol&Explanation\\
-    \hline
-    {}\\[-2ex]
-    $R^{+}_1$&Reflection operator for $\Omega_1$ for waves entering
-    from the left.\\
-    $T^{+}_1$&Transmission operator for $\Omega_1$ for waves entering
-    from the left.\\
-    $R^{-}_1$&Reflection operator for $\Omega_1$ for waves entering
-    from the right.\\
-    $T^{-}_1$&Transmission operator for $\Omega_1$ for waves entering
-    from the right.\\
-    $R^{+}_3$&Reflection operator for $\Omega_3$ for waves entering
-    from the left.\\
-    $T^{+}_3$&Transmission operator for $\Omega_3$ for waves entering
-    from the left.\\
-    $\Rtot$&Reflection operator for 
-    $\cup_{j=1}^3\Omega_j$ for waves entering
-    from the left.\\
-    $\Ttot$&Transmission operator for $\cup_{j=1}^3\Omega_j$ for
-    waves entering from the left.\\
-    \hline
-  \end{tabular}  
-\end{center}
+$\Omega_3$. Following the definitions given in Eq.~(\ref{eq:RT}), we
+use the notation
+\begin{align*}
+  &R^+_1=R^+(t_1,t_0),&&T^+_1=T^+(t_1,t_0),\\
+  &R^-_1=R^-(t_0,t_1),&&T^-_1=T^-(t_0,t_1),\\
+  &R^+_3=R^+(t_3,t_2),&&T^+_3=T^+(t_3,t_2),\\
+  &\Rtot=R^+(t_3,t_0),&&\Ttot=T^+(t_3,t_0).
+\end{align*}
+% \begin{center}
+%   \begin{tabular}{ll}
+%     Symbol&Explanation\\
+%     \hline
+%     {}\\[-2ex]
+%     $R^{+}_1=R^+(t_1,t_0)$&Reflection operator for $\Omega_1$ for waves entering
+%     from the left.\\
+%     $T^{+}_1$&Transmission operator for $\Omega_1$ for waves entering
+%     from the left.\\
+%     $R^{-}_1$&Reflection operator for $\Omega_1$ for waves entering
+%     from the right.\\
+%     $T^{-}_1$&Transmission operator for $\Omega_1$ for waves entering
+%     from the right.\\
+%     $R^{+}_3$&Reflection operator for $\Omega_3$ for waves entering
+%     from the left.\\
+%     $T^{+}_3$&Transmission operator for $\Omega_3$ for waves entering
+%     from the left.\\
+%     $\Rtot$&Reflection operator for 
+%     $\cup_{j=1}^3\Omega_j$ for waves entering
+%     from the left.\\
+%     $\Ttot$&Transmission operator for $\cup_{j=1}^3\Omega_j$ for
+%     waves entering from the left.\\
+%     \hline
+%   \end{tabular}  
+% \end{center}
 
 For the straight part $\Omega_2$ with length $\ell$ and width $a$,
 we define
@@ -1042,7 +1047,7 @@ we define
 where $\alpha_n=\sqrt{k^2-\dfrac{n^2\pi^2}{a^2}}$.% and $x$ is the
 %horizontal distance from the border between $\Omega_1$ and $\Omega_2$.
 
-Assume that a right-marching field $\Phiin=\Phi^+(t_0)$ is entering 
+Assume that a right-marching field $\Phiin=\vec\Phi^+(t_0)$ is entering 
 $\Omega_1$ from the left, and that there are no sources to the right of
 $\Omega_3$. Define operators $C^\pm$ such that at the border between
 $\Omega_1$ and $\Omega_2$, $\Phi^+(0)=C^+(0)\Phiin$ and
