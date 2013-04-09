@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: fourHarmScalWave.aux
+The style file: klunum.bst
+Database file #1: referenser.bib
+You've used 16 entries,
+            2380 wiz_defined-function locations,
+            619 strings with 5793 characters,
+and the built_in function-call counts, 5973 in all, are:
+= -- 565
+> -- 162
+< -- 20
++ -- 50
+- -- 42
+* -- 567
+:= -- 981
+add.period$ -- 34
+call.type$ -- 16
+change.case$ -- 85
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 255
+empty$ -- 505
+format.name$ -- 64
+if$ -- 1207
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 19
+newline$ -- 68
+num.names$ -- 48
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 101
+quote$ -- 0
+skip$ -- 188
+stack$ -- 0
+substring$ -- 514
+swap$ -- 62
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 0
+while$ -- 54
+width$ -- 0
+write$ -- 167

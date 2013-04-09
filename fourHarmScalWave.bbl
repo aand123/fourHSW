@@ -1,0 +1,85 @@
+\begin{thebibliography}{00}
+
+\bibitem{andersson-outpol:2008}
+Andersson, A.: 2008, `Schwarz--{C}hristoffel Mappings for Nonpolygonal
+  Regions'.
+\newblock {\em SIAM J. Sci. Comput.} {\bf 31}(1), 94--111.
+
+\bibitem{andersson-acf:2009}
+Andersson, A.: 2009, `Modified {S}chwarz-{C}hristoffel mappings using
+  approximate curve factors'.
+\newblock {\em J. Comp. Appl. Math.} {\bf 233}(4), 1117 -- 1127.
+
+\bibitem{Andersson-Nilsson:2009}
+Andersson, A. and B. Nilsson: 2009, `Electro-magnetic scattering in variously
+  shaped waveguides with an impedance condition'.
+\newblock In: {\em AIP Conference Proceedings: 3rd Conference on Mathematical
+  Modeling of Wave Phenomena}, Vol. 1106. pp. 36--45.
+
+\bibitem{Bauer:1964}
+Bauer, F.: 1964, `On the completeness of biorthogonal systems'.
+\newblock {\em Mich. Math. J.} {\bf 11}(4), 379--383.
+
+\bibitem{Bauer:1965}
+Bauer, F.: 1965, `Corrections to "{O}n the completeness of biorthogonal
+  systems"'.
+\newblock {\em Mich. Math. J.} {\bf 12}(1), 127--128.
+
+\bibitem{Fishman:1998}
+Fishman, L., A.~K. Gautesen, and Z. Sun: 1998, `An exact, well-posed, one-way
+  reformulation of the {H}elmholtz equation with application to direct and
+  inverse wave propagation modeling'.
+\newblock In: {\em New Perspectives on Problems in Classical and Quantum
+  Physics: A Festschrift in Honor of Herbert \"Uberall}.
+\newblock CRC Press, pp. 75--97.
+
+\bibitem{Glav:2000}
+Glav, R.: 2000, `The transfer matrix for a dissipative silencer of arbitrary
+  cross-section'.
+\newblock {\em J. Sound. Vib.} {\bf 236}(4), 575--594.
+
+\bibitem{Ihlenburg:1998}
+Ihlenburg, F.: 1998, {\em Finite element analysis of acoustic scattering}, Vol.
+  132 of {\em Applied Mathematical Sciences}.
+\newblock New York: Springer-Verlag.
+
+\bibitem{jones1986}
+Jones, D.~S.: 1986, {\em Acoustic and electromagnetic waves}.
+\newblock Oxford: Oxford {U}niversity press.
+
+\bibitem{kerns1949}
+Kerns, D.~M.: 1949, `Basis of the application of network equations to waveguide
+  problems'.
+\newblock {\em J. Res. natn. Bur. Stand.} {\bf 42}, 515--540.
+
+\bibitem{Li-Kahan:2012}
+Li, R.-C. and W. Kahan: 2012, `A family of anadromic numerical methods for
+  matrix {R}iccati differential equations'.
+\newblock {\em Math. Comp.} {\bf 81}(277), 233--265.
+
+\bibitem{Locker:2000}
+Locker, J.: 2000, {\em Spectral {T}heory of {N}on--{S}elf--{A}djoint
+  {T}wo--{P}oint {D}ifferential {O}perators}, Vol.~73 of {\em Mathematical
+  {Surveys} and {M}onographs}.
+\newblock Providence, Rhode Island: American Mathematical Society.
+
+\bibitem{Lu:1999}
+Lu, Y.~Y.: 1999, `Exact one-way methods for acoustic waveguides'.
+\newblock {\em Math. Comput. Simulation} {\bf 50}(5-6), 377--391.
+
+\bibitem{Nilsson:2002}
+Nilsson, B.: 2002, `Acoustic transmission in curved ducts with various
+  cross-sections'.
+\newblock {\em Proc. R. Soc. Lond. A} {\bf 458}, 1555--1574.
+
+\bibitem{nilssonbrander1981b}
+Nilsson, B. and O. Brander: 1981, `The propagation of sound in cylindrical
+  ducts with mean flow and bulk reacting lining - {IV}. {S}everal interacting
+  discontinuities'.
+\newblock {\em IMA J. Appl. Math} {\bf 27}, 263--289.
+
+\bibitem{Young:1981}
+Young, R.: 1981, `On complete biorthogonal systems'.
+\newblock {\em Proc. Am. Math. Soc.} {\bf 83}(3), 537--540.
+
+\end{thebibliography}

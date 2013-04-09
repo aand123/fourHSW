@@ -1,4 +1,6 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass{kluwer}
+\let\iint\undefined
+\let\iiint\undefined
 \usepackage{ifpdf}
 \ifpdf
   \usepackage[pdftex]{graphicx}
@@ -10,30 +12,30 @@
   \DeclareGraphicsRule{*}{eps}{*}{}
 \fi
 
-\usepackage{amsmath,amssymb}
-\usepackage{amsthm}
+\usepackage{amsmath}
+% \usepackage{amsthm}
 
-\newtheorem{lemma}{Lemma}
-\newtheorem{corollary}{Corollary}
-\newtheorem{theorem}{Theorem}
-\newtheorem{acknowledgement}[theorem]{Acknowledgement}
-\newtheorem{algorithm}[theorem]{Algorithm}
-\newtheorem{axiom}[theorem]{Axiom}
-\newtheorem{case}[theorem]{Case}
-\newtheorem{claim}[theorem]{Claim}
-\newtheorem{conclusion}[theorem]{Conclusion}
-\newtheorem{condition}[theorem]{Condition}
-\newtheorem{conjecture}[theorem]{Conjecture}
-\newtheorem{criterion}[theorem]{Criterion}
-\newtheorem{definition}[theorem]{Definition}
-\newtheorem{example}[theorem]{Example}
-\newtheorem{exercise}[theorem]{Exercise}
-\newtheorem{notation}[theorem]{Notation}
-\newtheorem{problem}[theorem]{Problem}
-\newtheorem{proposition}[theorem]{Proposition}
-\newtheorem{remark}[theorem]{Remark}
-\newtheorem{solution}[theorem]{Solution}
-\newtheorem{summary}[theorem]{Summary}
+% \newtheorem{lemma}{Lemma}
+% \newtheorem{corollary}{Corollary}
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{acknowledgement}[theorem]{Acknowledgement}
+% \newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}{Axiom}
+% \newtheorem{case}[theorem]{Case}
+% \newtheorem{claim}[theorem]{Claim}
+% \newtheorem{conclusion}[theorem]{Conclusion}
+% \newtheorem{condition}[theorem]{Condition}
+% \newtheorem{conjecture}[theorem]{Conjecture}
+% \newtheorem{criterion}[theorem]{Criterion}
+% \newtheorem{definition}[theorem]{Definition}
+% \newtheorem{example}[theorem]{Example}
+% \newtheorem{exercise}[theorem]{Exercise}
+% \newtheorem{notation}[theorem]{Notation}
+% \newtheorem{problem}[theorem]{Problem}
+% \newtheorem{proposition}[theorem]{Proposition}
+% \newtheorem{remark}[theorem]{Remark}
+% \newtheorem{solution}[theorem]{Solution}
+% \newtheorem{summary}[theorem]{Summary}
 
 \usepackage{bm}
 
@@ -75,13 +77,25 @@
 \newcommand{\Rtot}{R^+_{\text{tot}}}
 
 \begin{document}
+\begin{article}
+  \begin{opening}
+    \title{Fourier Methods for Harmonic Scalar Waves in General
+      Waveguides}
 
-
-\title{Fourier Methods for Harmonic Scalar Waves in General
-  Waveguides}
-
-\author{Anders Andersson, B\"orje Nilsson, Thomas Biro}
-\maketitle
+    \author{Anders\surname{Andersson}\email{anders.andersson@jth.hj.se}}
+    \institute{School of Engineering, J\"onk\"oping University, 
+      J\"onk\"oping}
+    \author{B\"orje\surname{Nilsson}\email{borje.nilsson@lnu.se}}
+    \institute{Linn\ae us Univerity, V\"axj\"o}
+    \author{Thomas\surname{Biro}\email{thomas.biro@jth.hj.se}}
+    \institute{School of Engineering, J\"onk\"oping University, 
+      J\"onk\"oping}
+    \begin{abstract}
+      The classical Fourier methods...
+    \end{abstract}
+    \keywords{Harmonic scalar waves, Fourier series, Building Block
+      Method, Conformal mappings, Dirichlet-to-Neumann operators}
+  \end{opening}
 
 \section{Introduction}
 \label{sec:intro}
@@ -171,7 +185,7 @@ waves in a waveguide $V$, in $\mathbb{R}^{2}$ or $\mathbb{R}^{3},$ of
 rather general shape. Acoustic notation is used where the sound
 pressure $p$ solves Helmholtz equation%
 \begin{equation}
-  (\nabla^{2}+k^{2})p(\bm{r})=0,\text{ }\bm{r}\in V\text{,} \label{101}%
+  (\nabla^{2}+k^{2})p(\bm{r})=0,\quad\bm{r}\in V, \label{101}%
 \end{equation}
 in the interior $V$ of the waveguide and fulfils a homogeneous
 boundary condition%
@@ -1468,6 +1482,9 @@ alternative to different FEM-based numerical methods.
 % domain. More precise bounds for this domain are still to be
 % determined.
 
-\bibliographystyle{plain} \bibliography{referenser}
+\bibliographystyle{klunum} 
+\bibliography{referenser}
+
+\end{article}
 
 \end{document}

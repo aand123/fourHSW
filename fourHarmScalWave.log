@@ -1,0 +1,597 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  9 APR 2013 16:00
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\input fourHarmScalWave.tex
+(./fourHarmScalWave.tex (./kluwer.cls
+Document Class: kluwer 1998/02/11 1.1 Kluwer base document class
+(./klumac.sty
+Package: klumac 1998/02/11
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+\@cla=\count79
+\@clb=\count80
+\bdj=\box26
+\tracingkluwer=\count81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kluwer/klu11.clo
+File: klu11.clo 1998/02/11
+\id@boxheight=\dimen102
+) (./klulist.sty
+Package: klulist 1998/03/17
+\aobox=\box27
+)
+(./kluopen.sty
+Package: kluopen 1998/02/11
+\@temptokenb=\toks15
+\cnt@authors=\count82
+\cnt@institutes=\count83
+\@abstractbox=\box28
+\mottobox=\box29
+) (./kluedit.sty
+Package: kluedit 1998/03/13
+\logotoks=\toks16
+\c@outputpage=\count84
+\c@article=\count85
+) (./klufloa.sty
+Package: klufloa 1998/03/13
+ (./klutab.sty
+Package: klutab 1998/02/11
+\stretchtabsep=\skip41
+)
+\maxfloatwidth=\dimen103
+\figtabbox=\box30
+\floatindent=\dimen104
+\@tabskip=\dimen105
+\captionskip=\dimen106
+\@tabwidth=\dimen107
+\captionindent=\dimen108
+\@floatcaption=\toks17
+\c@table=\count86
+\c@tabnote=\count87
+\c@figure=\count88
+\c@algorithm=\count89
+\rotdimen=\dimen109
+) (./klunote.sty
+Package: klunote 1998/02/11
+\c@endnote=\count90
+\endnotesep=\dimen110
+\@endnotes=\write3
+)
+(./kluref.sty
+Package: kluref 1998/03/17
+\bibhang=\skip42
+
+KAP -- Named references
+) (./klumath.sty
+Package: klumath 1998/03/13
+\eqnoindent=\dimen111
+\theoremsep=\dimen112
+\dispsep=\dimen113
+) (./klusec.sty
+Package: klusec 1998/03/13
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
+))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen116
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen117
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks20
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks21
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+\c@axiom=\count109
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldwasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+) (./fourHarmScalWave.aux)
+\openout1 = `fourHarmScalWave.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+Article 1 Abstract Keywords
+LaTeX Font Info:    Try loading font information for U+msa on input line 111.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 111.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 111.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 111.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 111.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 143.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
+ [1]
+
+LaTeX Warning: Reference `ieq:Helmholtz1' on page 2 undefined on input line 147
+.
+
+
+LaTeX Warning: Reference `ieq:Helmholtz1' on page 2 undefined on input line 173
+.
+
+[2]
+File: waveguide.1 Graphic file (type eps)
+ <waveguide.1> Figure 1
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 219.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 219.
+
+
+Overfull \hbox (13.65894pt too wide) in paragraph at lines 206--232
+\OT1/cmr/m/n/10.95 this waveg-uide schemat-i-cally. Us-ing the no-ta-tion $\U/m
+sb/m/n/10.95 R[] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ;$
+ []
+
+
+LaTeX Warning: Reference `i101' on page 3 undefined on input line 237.
+
+[3]
+
+LaTeX Warning: Reference `i104' on page 4 undefined on input line 336.
+
+
+LaTeX Warning: Reference `i106' on page 4 undefined on input line 336.
+
+[4]
+
+LaTeX Warning: Reference `ieq:bvp1' on page 5 undefined on input line 568.
+
+
+Overfull \hbox (35.76784pt too wide) in paragraph at lines 565--570
+\OT1/cmr/m/n/10.95 to trans-form the ge-om-e-try into a straight hor-i-zon-tal 
+chan-nel []
+ []
+
+[5]
+File: waveguide.3 Graphic file (type eps)
+ <waveguide.3> Figure 2
+
+LaTeX Warning: Reference `ieq:bvp2' on page 6 undefined on input line 599.
+
+
+LaTeX Warning: Reference `ieq:lambdaeq' on page 6 undefined on input line 605.
+
+[6]
+
+LaTeX Warning: Reference `ieq:bvp2' on page 7 undefined on input line 654.
+
+
+LaTeX Warning: Reference `ieq:vsinlambda' on page 7 undefined on input line 668
+.
+
+
+LaTeX Warning: Reference `ieq:mucoslambda' on page 7 undefined on input line 66
+8.
+
+
+LaTeX Warning: Reference `ieq:bvp2' on page 7 undefined on input line 683.
+
+
+LaTeX Warning: Reference `ieq:am' on page 7 undefined on input line 686.
+
+[7]
+
+LaTeX Warning: Reference `ieq:DE' on page 8 undefined on input line 703.
+
+
+LaTeX Warning: Reference `ieq:bvp2' on page 8 undefined on input line 704.
+
+
+LaTeX Warning: Reference `ieq:lambdaprim' on page 8 undefined on input line 705
+.
+
+
+LaTeX Warning: Reference `ieq:lambdabis' on page 8 undefined on input line 706.
+
+
+
+LaTeX Warning: Reference `ieq:A' on page 8 undefined on input line 706.
+
+
+LaTeX Warning: Reference `ieq:B2' on page 8 undefined on input line 706.
+
+
+LaTeX Warning: Reference `ieq:DE' on page 8 undefined on input line 724.
+
+
+LaTeX Warning: Reference `ieq:DE' on page 8 undefined on input line 726.
+
+[8]
+
+LaTeX Warning: Reference `ieq:DE' on page 9 undefined on input line 777.
+
+
+LaTeX Warning: Reference `ieq:DE' on page 9 undefined on input line 809.
+
+
+LaTeX Warning: Reference `ieq:Phipart1' on page 9 undefined on input line 809.
+
+
+LaTeX Warning: Reference `ieq:plusminustodiff' on page 9 undefined on input lin
+e 810.
+
+[9]
+
+LaTeX Warning: Reference `ieq:RT' on page 10 undefined on input line 841.
+
+
+LaTeX Warning: Reference `ieq:RT' on page 10 undefined on input line 844.
+
+
+LaTeX Warning: Reference `ieq:RT2' on page 10 undefined on input line 852.
+
+
+LaTeX Warning: Reference `ieq:diffphiplusminus' on page 10 undefined on input l
+ine 861.
+
+
+LaTeX Warning: Reference `ieq:RT2' on page 10 undefined on input line 861.
+
+
+LaTeX Warning: Reference `ieq:Ricatti1' on page 10 undefined on input line 883.
+
+
+
+LaTeX Warning: Reference `ieq:Ricatti2' on page 10 undefined on input line 883.
+
+
+
+LaTeX Warning: Reference `ieq:Ricatti3' on page 10 undefined on input line 885.
+
+
+
+LaTeX Warning: Reference `ieq:Ricatti4' on page 10 undefined on input line 885.
+
+
+[10]
+
+LaTeX Warning: Reference `ieq:DE' on page 11 undefined on input line 894.
+
+
+LaTeX Warning: Reference `ieq:DE' on page 11 undefined on input line 911.
+
+
+LaTeX Warning: Reference `ieq:DtNdef1' on page 11 undefined on input line 912.
+
+
+LaTeX Warning: Reference `ieq:DtNdef2' on page 11 undefined on input line 912.
+
+
+LaTeX Warning: Reference `ieq:DtNDE1' on page 11 undefined on input line 930.
+
+
+LaTeX Warning: Reference `ieq:DtNDE2' on page 11 undefined on input line 930.
+
+
+LaTeX Warning: Reference `ieq:DtNdef1' on page 11 undefined on input line 933.
+
+
+LaTeX Warning: Reference `ieq:DtNdef2' on page 11 undefined on input line 934.
+
+
+LaTeX Warning: Reference `ieq:Ricatti1' on page 11 undefined on input line 938.
+
+
+
+LaTeX Warning: Reference `ieq:Ricatti4' on page 11 undefined on input line 938.
+
+
+
+LaTeX Warning: Reference `ieq:DtNDE1' on page 11 undefined on input line 939.
+
+
+LaTeX Warning: Reference `ieq:DtNDE2' on page 11 undefined on input line 939.
+
+
+LaTeX Warning: Reference `ieq:DtNDE1' on page 11 undefined on input line 943.
+
+
+LaTeX Warning: Reference `ieq:DtNDE2' on page 11 undefined on input line 943.
+
+
+LaTeX Warning: Reference `ieq:Ricatti1' on page 11 undefined on input line 944.
+
+
+
+LaTeX Warning: Reference `ieq:Ricatti4' on page 11 undefined on input line 944.
+
+
+[11]
+File: BBMwg.1 Graphic file (type eps)
+ <BBMwg.1> Figure 3
+
+LaTeX Warning: Reference `ieq:RT' on page 12 undefined on input line 1017.
+
+
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+ [12]
+Overfull \hbox (5.28545pt too wide) in paragraph at lines 1076--1080
+\OT1/cmr/m/n/10.95 Consequently, at the bor-der be-tween $
+[]$ and $
+[]$, there are right-marching
+ []
+
+
+Overfull \hbox (1.15572pt too wide) in paragraph at lines 1081--1085
+[]\OT1/cmr/m/n/10.95 Since there are no sources to the right of $
+[]$, $\OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
+m/n/10.95 )\OML/cmm/m/it/10.95 C[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
+S\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.
+95 C[]$\OT1/cmr/m/n/10.95 ,
+ []
+
+File: waveguide.eps Graphic file (type eps)
+<waveguide.eps> Figure 4 [13]
+
+LaTeX Warning: Reference `ieq:scconfmap1' on page 14 undefined on input line 11
+67.
+
+File: sc.eps Graphic file (type eps)
+<sc.eps>
+File: bc.eps Graphic file (type eps)
+ <bc.eps> Figure 5
+Overfull \hbox (32.38576pt too wide) in paragraph at lines 1166--1182
+\OT1/cmr/m/n/10.95 In ([]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML/c
+mm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.95
+ to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, $\
+OML/cmm/b/it/10.95  \OT1/cmr/m/n/10.95 = (0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/1
+0.95 85\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/
+m/n/10.95 15\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1
+/cmr/m/n/10.95 15\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 
+:\OT1/cmr/m/n/10.95 85)[]$
+ []
+
+[14]
+
+LaTeX Warning: Reference `ieq:Ricatti1' on page 15 undefined on input line 1209
+.
+
+
+LaTeX Warning: Reference `ieq:Ricatti4' on page 15 undefined on input line 1209
+.
+
+
+LaTeX Warning: Reference `ieq:DtNdef1' on page 15 undefined on input line 1210.
+
+
+
+LaTeX Warning: Reference `ieq:DtNDE2' on page 15 undefined on input line 1210.
+
+
+LaTeX Warning: Reference `ieq:DE' on page 15 undefined on input line 1218.
+
+
+LaTeX Warning: Reference `ieq:alphabeta' on page 15 undefined on input line 121
+9.
+
+
+LaTeX Warning: Reference `ieq:Ricatti1' on page 15 undefined on input line 1223
+.
+
+
+LaTeX Warning: Reference `ieq:Ricatti4' on page 15 undefined on input line 1223
+.
+
+
+LaTeX Warning: Reference `ieq:DtNDE1' on page 15 undefined on input line 1224.
+
+
+LaTeX Warning: Reference `ieq:DtNDE2' on page 15 undefined on input line 1224.
+
+[15]
+File: phin1a.eps Graphic file (type eps)
+ <phin1a.eps>
+File: phin2a.eps Graphic file (type eps)
+ <phin2a.eps>
+File: phin3a.eps Graphic file (type eps)
+ <phin3a.eps> Figure 6
+File: phitot3a.eps Graphic file (type eps)
+ <phitot3a.eps> Figure 7
+Table I
+Overfull \hbox (7855.99998pt too wide) in paragraph at lines 1290--1290
+[] 
+ []
+
+
+LaTeX Warning: Reference `ieq:midfield' on page 16 undefined on input line 1294
+.
+
+
+LaTeX Warning: Reference `ieq:ABRtotTtot' on page 16 undefined on input line 12
+94.
+
+[16]
+File: FEMvsFourier.eps Graphic file (type eps)
+ <FEMvsFourier.eps> Figure 8
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+ [17]
+Overfull \hbox (1.22995pt too wide) in paragraph at lines 1340--1352
+\OT1/cmr/m/n/10.95 Fourier se-ries. How-ever, the Build-ing Block method and we
+ll-established
+ []
+
+
+Overfull \hbox (16.14249pt too wide) in paragraph at lines 1358--1362
+[]\OT1/cmr/m/n/10.95 Finally, it is pos-si-ble to ex-tend the tech-niques to co
+ver three-dimensional
+ []
+
+
+LaTeX Warning: Reference `ieq:DE' on page 18 undefined on input line 1391.
+
+
+LaTeX Warning: Reference `ieq:lambdaeq' on page 18 undefined on input line 1393
+.
+
+
+LaTeX Warning: Reference `ieq:vsinlambda' on page 18 undefined on input line 13
+94.
+
+
+LaTeX Warning: Reference `ieq:vcos^2lambda' on page 18 undefined on input line 
+1395.
+
+
+LaTeX Warning: Reference `ieq:mucoslambda' on page 18 undefined on input line 1
+397.
+
+File: T_N.eps Graphic file (type eps)
+<T_N.eps> Figure 9
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+(./fourHarmScalWave.bbl References [19]) [20] (./fourHarmScalWave.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2701 strings out of 493486
+ 30065 string characters out of 3143548
+ 94015 words of memory out of 3000000
+ 5931 multiletter control sequences out of 15000+200000
+ 18902 words of font info for 71 fonts, out of 3000000 for 9000
+ 962 hyphenation exceptions out of 8191
+ 37i,18n,28p,448b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on fourHarmScalWave.dvi (20 pages, 69348 bytes).
