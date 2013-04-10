@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  10 APR 2013 12:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  10 APR 2013 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,55 +204,55 @@ LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 Abstract Keywords
-LaTeX Font Info:    Try loading font information for U+msa on input line 110.
+LaTeX Font Info:    Try loading font information for U+msa on input line 115.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 110.
+LaTeX Font Info:    Try loading font information for U+msb on input line 115.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 110.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 115.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 110.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 115.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 110.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 115.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 147.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 147.
  [1] [2]
 File: waveguide.1 Graphic file (type eps)
  <waveguide.1>
 Figure 1
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 218.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 223.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 218.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 223.
 
 
-Overfull \hbox (13.65894pt too wide) in paragraph at lines 205--231
+Overfull \hbox (13.65894pt too wide) in paragraph at lines 210--236
 \OT1/cmr/m/n/10.95 this waveg-uide schemat-i-cally. Us-ing the no-ta-tion $\U/m
 sb/m/n/10.95 R[] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ;$
  []
 
 [3] [4]
-Overfull \hbox (35.76784pt too wide) in paragraph at lines 564--569
+Overfull \hbox (35.76784pt too wide) in paragraph at lines 569--574
 \OT1/cmr/m/n/10.95 to trans-form the ge-om-e-try into a straight hor-i-zon-tal 
 chan-nel []
  []
@@ -265,14 +265,14 @@ File: BBMwg.1 Graphic file (type eps)
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
  [12]
-Overfull \hbox (5.28545pt too wide) in paragraph at lines 1075--1079
+Overfull \hbox (5.28545pt too wide) in paragraph at lines 1080--1084
 \OT1/cmr/m/n/10.95 Consequently, at the bor-der be-tween $
 []$ and $
 []$, there are right-marching
  []
 
 
-Overfull \hbox (1.15572pt too wide) in paragraph at lines 1080--1084
+Overfull \hbox (1.15572pt too wide) in paragraph at lines 1085--1089
 []\OT1/cmr/m/n/10.95 Since there are no sources to the right of $
 []$, $\OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
 m/n/10.95 )\OML/cmm/m/it/10.95 C[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
@@ -286,7 +286,7 @@ File: sc.eps Graphic file (type eps)
  <sc.eps>
 File: bc.eps Graphic file (type eps)
  <bc.eps> Figure 5
-Overfull \hbox (31.44295pt too wide) in paragraph at lines 1165--1181
+Overfull \hbox (31.44295pt too wide) in paragraph at lines 1170--1186
 \OT1/cmr/m/n/10.95 In (46[]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML
 /cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.
 95 to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, 
@@ -307,23 +307,25 @@ File: phin3a.eps Graphic file (type eps)
 File: phitot3a.eps Graphic file (type eps)
  <phitot3a.eps>
 Figure 7 Table I
-Overfull \hbox (7855.99998pt too wide) in paragraph at lines 1289--1289
-[] 
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16]
 File: FEMvsFourier.eps Graphic file (type eps)
- <FEMvsFourier.eps> Figure 8
-Underfull \vbox (badness 1226) has occurred while \output is active []
+ <FEMvsFourier.eps> Figure 8 [17]
+Overfull \hbox (0.80418pt too wide) in paragraph at lines 1345--1357
+\OT1/cmr/m/n/10.95 guide. There are nu-mer-ous pos-si-ble bound-ary vari-a-tion
+s not com-mented
+ []
 
- [17]
-Overfull \hbox (1.22995pt too wide) in paragraph at lines 1339--1351
+
+Overfull \hbox (1.22995pt too wide) in paragraph at lines 1345--1357
 \OT1/cmr/m/n/10.95 Fourier se-ries. How-ever, the Build-ing Block method and we
 ll-established
  []
 
 
-Overfull \hbox (16.14249pt too wide) in paragraph at lines 1357--1361
+Overfull \hbox (16.14249pt too wide) in paragraph at lines 1363--1367
 []\OT1/cmr/m/n/10.95 Finally, it is pos-si-ble to ex-tend the tech-niques to co
 ver three-dimensional
  []
@@ -336,11 +338,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./fourHarmScalWave.bbl References [19]) [20] (./fourHarmScalWave.aux) ) 
 Here is how much of TeX's memory you used:
  2667 strings out of 493486
- 29590 string characters out of 3143548
+ 29592 string characters out of 3143548
  93756 words of memory out of 3000000
  5897 multiletter control sequences out of 15000+200000
  18902 words of font info for 71 fonts, out of 3000000 for 9000
  962 hyphenation exceptions out of 8191
  37i,18n,28p,448b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fourHarmScalWave.dvi (20 pages, 69220 bytes).
+Output written on fourHarmScalWave.dvi (20 pages, 70672 bytes).

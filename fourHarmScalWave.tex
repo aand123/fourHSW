@@ -77,24 +77,29 @@
 \newcommand{\Rtot}{R^+_{\text{tot}}}
 
 \begin{document}
-  \begin{opening}
-    \title{Fourier Methods for Harmonic Scalar Waves in General
-      Waveguides}
+\begin{opening}
+  \title{Fourier Methods for Harmonic Scalar Waves in General
+    Waveguides}
 
-    \author{Anders \surname{Andersson}\email{anders.andersson@jth.hj.se}}
-    \institute{School of Engineering, J\"onk\"oping University, 
-      J\"onk\"oping}
-    \author{B\"orje \surname{Nilsson}\email{borje.nilsson@lnu.se}}
-    \institute{Linn\ae us Univerity, V\"axj\"o}
-    \author{Thomas \surname{Biro}\email{thomas.biro@jth.hj.se}}
-    \institute{School of Engineering, J\"onk\"oping University, 
-      J\"onk\"oping}
-    \begin{abstract}
-      The classical Fourier methods...
-    \end{abstract}
-    \keywords{Harmonic scalar waves, Fourier series, Building Block
-      Method, Conformal mappings, Dirichlet-to-Neumann operators}
-  \end{opening}
+  \author{Anders
+    \surname{Andersson}\email{anders.andersson@jth.hj.se}}
+  \institute{School of Engineering, J\"onk\"oping University,
+    J\"onk\"oping} \author{B\"orje
+    \surname{Nilsson}\email{borje.nilsson@lnu.se}} \institute{Linn\ae
+    us University, V\"axj\"o} \author{Thomas
+    \surname{Biro}\email{thomas.biro@jth.hj.se}} \institute{School of
+    Engineering, J\"onk\"oping University, J\"onk\"oping}
+  \runningtitle{Fourier Methods for Harmonic Scalar Waves in General Waveguides}
+  \runningauthor{Andersson, Nilsson, Biro}
+  \begin{abstract}
+    Wave scattering problems in two-dimensional waveguides of general
+    shapes and with varying boundary conditions are solved, using a
+    mixture of old and new techniques, including Fourier series,
+    conformal mappings, ....
+  \end{abstract}
+  \keywords{Harmonic scalar waves, Fourier series, Building Block
+    Method, Conformal mappings, Dirichlet-to-Neumann operators}
+\end{opening}
 
 \section{Introduction}
 \label{sec:intro}
@@ -193,7 +198,7 @@ boundary condition%
   \text{ }\bm{r}\in\partial V\text{,} \label{102}%
 \end{equation}
 on the boundary $\partial V$. Here, $k\in\mathbb{R}^{+}$ is the
-wavenumber, $\beta\in\mathbb{C}$, $\Re\beta\geq0$ is the (normalised)
+wave number, $\beta\in\mathbb{C}$, $\Re\beta\geq0$ is the (normalised)
 surface admittance and $\widehat{\bm{n}}$ is the outward pointing
 normal to $\partial V$. Special cases of the boundary conditions are
 $\beta=0$ (Neumann or hard) and $\beta=\i\infty$ (Dirichlet or
@@ -297,8 +302,8 @@ there is a region $V_{0}\subset V$, containing sources, i.e.$,$ where
 $(\nabla^{2}+k^{2}%
 )p\neq0,$ and that this source region is confined to the interval
 $u_{-}<u<u_{+}.$ In physical terms, there should be only outgoing
-waves outside the source region, i.e., leftgoing to the left and
-rightgoing to the right. In order to couple this requirement to our
+waves outside the source region, i.e., left-going to the left and
+right-going to the right. In order to couple this requirement to our
 definition of $p_{-}$ and $p_{+},$ we formulate the following
 
 \begin{axiom}
@@ -319,7 +324,7 @@ definition of $p_{-}$ and $p_{+},$ we formulate the following
 
 \begin{description}
 \item[Comment 1] Axiom \ref{axiom1} makes it natural to denote $p_{-}$
-  as leftgoing and $p_{+}$ as rightgoing.
+  as left-going and $p_{+}$ as right-going.
 
 \item[Comment 2] Axiom \ref{axiom1} can be derived from physical
   principles: (a) According to the principle of vanishing absorption,
@@ -534,7 +539,7 @@ conditions can be treated as a series of simpler problem, using the so
 called Building Block Method, see
 Section~\ref{sec:comb-blocks-build}. The method determines reflection
 and transmission operators for the waveguide, given that these
-operators have been determined for each section (``block'') of the
+operators have been determined for each part (``block'') of the
 waveguide. 
 
 In this section, we show how reflection and transmission operators for
@@ -675,7 +680,7 @@ for the expansion
 
 Furthermore, the system $(\varphi_m)$ is proved to be complete in
 $L^2(0,1)$ using Hilbert space techniques
-\cite{Bauer:1964},\cite{Bauer:1965} but Paley-Wiener space techniques
+\cite{Brauer:1964},\cite{Brauer:1965} but Paley-Wiener space techniques
 \cite{Young:1981} could also be used; see also \cite{Locker:2000} for
 a general treatise on eigenvalue problems based on functional analysis
 for differential equations with two-point boundary conditions such
@@ -907,8 +912,8 @@ and $\Lambda_L$ such that
   \label{eq:DtNdef2}
   &\vec\Phi_L'(u)=\Lambda_L(u)\vec\Phi_L(u).
 \end{align}
-$\Phi_R$ and $\Phi_L$ are both satisfying (\ref{eq:DE}), and by
-differentiating (\ref{eq:DtNdef1}) and (\ref{eq:DtNdef2}), the
+$\vec\Phi_R$ and $\vec\Phi_L$ are both satisfying (\ref{eq:DE}), and
+by differentiating (\ref{eq:DtNdef1}) and (\ref{eq:DtNdef2}), the
 operator equations
 \begin{align}
   \label{eq:DtNDE1}
@@ -1113,7 +1118,7 @@ Fig.~\ref{fig:exwg}.
   \label{fig:exwg}
 \end{figure}
 The results, i.e., the acoustic field in the waveguide given a known
-field entering from the left, as well as reflection as transmission
+field entering from the left, as well as reflection and transmission
 operators for the waveguide, are calculated and compared with a finite
 element method solution.
 
@@ -1258,7 +1263,7 @@ $k=15$.
   \label{fig:phitot3a}
 \end{figure}
 
-\begin{table}[hb]
+\begin{table}[h]
   \begin{equation*}
     \begin{array}{|l|rrl|}
       \hline
@@ -1286,6 +1291,7 @@ $k=15$.
     calculated with the two different methods. All calculations are
     made for  $k=15$.}
   \label{tab:phires-bcend}
+  \tabwidth{\textwidth}
 \end{table}
 
 Note that in $\Omega_1$, $\vec\Phi$ is calculated using the methods in
@@ -1319,7 +1325,7 @@ The Finite Element Method (FEM) is a well-established process for
 treating problems like the one in the example, and it is probably the
 most used method to solve such problems. As a comparison, we have
 applied a commercial FEM solver (COMSOL Multiphysics) to the
-problem. In Figure~\ref{fig:FEMvsFourier}, FEM solutions for $k=0..20$
+problem. In Figure~\ref{fig:FEMvsFourier}, FEM solutions for $k=0\dots20$
 are compared with the corresponding Fourier method solutions. As is
 seen in the figure, the correspondence is good. The differences
 between the methods in the calculated $k$ interval are all less than
@@ -1337,7 +1343,7 @@ $4\cdot10^{-3}$.
 % matching techniques when gluing them together.
 
 The example problem in Section~\ref{sec:numerical-example} is of
-course not a ``general'' waveguide. There are numerous possible
+course not a ``general'' wave\-guide. There are numerous possible
 boundary variations not commented so far. For example, the methods in
 this article seem to require smooth changes in both geometry and
 boundary conditions to get converging Fourier series. However, the
