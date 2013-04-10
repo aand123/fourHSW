@@ -1,4 +1,4 @@
-prologues:=2;
+prologues:=3;
 
 verbatimtex
 %&latex

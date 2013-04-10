@@ -1,0 +1,30 @@
+prologues:=3;
+
+verbatimtex
+%&latex
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+etex
+
+u:=1cm;
+
+beginfig(1)
+  path ub,lb;
+  ub=(-5u,3u)--(-4u,8u/3){dir -18.435}...(-1u,1.5u){right}--
+    (0.5u,1.5u){right}...(2.5u,2u){right}--(4u,2u);
+  lb=(-5u,2u)--(-4u,5u/3){dir -18.435}...(-1u,0.5u){right}--(4u,0.5u);
+  draw ub;
+  draw lb;
+  draw (-0.8u,0)--(-0.8u,2u) dashed withdots;
+  draw (0.3u,0)--(0.3u,2u) dashed withdots;
+  z=point 0.1 of lb;
+  draw (z--(z+((direction 0.1 of lb) scaled 100) rotated 90))
+    cutafter ub dashed withdots;
+  draw (3.9u,0)--(3.9u,2.5u) dashed withdots;
+  label(btex $\varOmega_1$ etex,(-4u,2u));
+  label(btex $\varOmega_2$ etex,(-0.2u,u));
+  label(btex $\varOmega_3$ etex,(3u,u));
+endfig;
+
+end
