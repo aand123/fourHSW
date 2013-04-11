@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: fourHarmScalWave.aux
 The style file: klunum.bst
 Database file #1: referenser.bib
-You've used 16 entries,
+You've used 15 entries,
             2380 wiz_defined-function locations,
-            619 strings with 5798 characters,
-and the built_in function-call counts, 5973 in all, are:
-= -- 565
-> -- 162
+            609 strings with 5833 characters,
+and the built_in function-call counts, 5544 in all, are:
+= -- 523
+> -- 154
 < -- 20
 + -- 50
-- -- 42
-* -- 567
-:= -- 981
-add.period$ -- 34
-call.type$ -- 16
-change.case$ -- 85
-chr.to.int$ -- 16
-cite$ -- 16
-duplicate$ -- 255
-empty$ -- 505
-format.name$ -- 64
-if$ -- 1207
+- -- 40
+* -- 500
+:= -- 912
+add.period$ -- 33
+call.type$ -- 15
+change.case$ -- 80
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 241
+empty$ -- 462
+format.name$ -- 61
+if$ -- 1131
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 19
-newline$ -- 68
-num.names$ -- 48
-pop$ -- 70
+newline$ -- 64
+num.names$ -- 45
+pop$ -- 73
 preamble$ -- 1
-purify$ -- 101
+purify$ -- 95
 quote$ -- 0
-skip$ -- 188
+skip$ -- 187
 stack$ -- 0
-substring$ -- 514
-swap$ -- 62
-text.length$ -- 5
+substring$ -- 453
+swap$ -- 64
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 82
 warning$ -- 0
-while$ -- 54
+while$ -- 49
 width$ -- 0
-write$ -- 167
+write$ -- 153

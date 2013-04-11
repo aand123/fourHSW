@@ -16,14 +16,11 @@ Andersson, A. and B. Nilsson: 2009, `Electro-magnetic scattering in variously
 \newblock In: {\em AIP Conference Proceedings: 3rd Conference on Mathematical
   Modeling of Wave Phenomena}, Vol. 1106. pp. 36--45.
 
-\bibitem{Brauer:1964}
-Brauer, F.: 1964, `On the completeness of biorthogonal systems'.
-\newblock {\em Mich. Math. J.} {\bf 11}(4), 379--383.
-
-\bibitem{Brauer:1965}
-Brauer, F.: 1965, `Corrections to "{O}n the completeness of biorthogonal
-  systems"'.
-\newblock {\em Mich. Math. J.} {\bf 12}(1), 127--128.
+\bibitem{Benzinger:1974}
+Benzinger, H.: 1974, `An application of the {H}ausdorff--{Y}oung Inequality to
+  Eigenfunction Expansions'.
+\newblock In: {\em Ordinary and partial differential equations, Proceedings of
+  the conference held at Dundee, 1974}. pp. 41--46.
 
 \bibitem{Fishman:1998}
 Fishman, L., A.~K. Gautesen, and Z. Sun: 1998, `An exact, well-posed, one-way
@@ -41,11 +38,15 @@ Glav, R.: 2000, `The transfer matrix for a dissipative silencer of arbitrary
 \bibitem{Ihlenburg:1998}
 Ihlenburg, F.: 1998, {\em Finite element analysis of acoustic scattering}, Vol.
   132 of {\em Applied Mathematical Sciences}.
-\newblock New York: Springer-Verlag.
+\newblock Springer-Verlag, New York.
 
 \bibitem{jones1986}
 Jones, D.~S.: 1986, {\em Acoustic and electromagnetic waves}.
-\newblock Oxford: Oxford {U}niversity press.
+\newblock Oxford {U}niversity press, Oxford.
+
+\bibitem{Kato:1995}
+Kato, T.: 1995, {\em Perturbation theory for linear operators}.
+\newblock Springer, Berlin.
 
 \bibitem{kerns1949}
 Kerns, D.~M.: 1949, `Basis of the application of network equations to waveguide
@@ -61,7 +62,7 @@ Li, R.-C. and W. Kahan: 2012, `A family of anadromic numerical methods for
 Locker, J.: 2000, {\em Spectral {T}heory of {N}on--{S}elf--{A}djoint
   {T}wo--{P}oint {D}ifferential {O}perators}, Vol.~73 of {\em Mathematical
   {Surveys} and {M}onographs}.
-\newblock Providence, Rhode Island: American Mathematical Society.
+\newblock American Mathematical Society, Providence, Rhode Island.
 
 \bibitem{Lu:1999}
 Lu, Y.~Y.: 1999, `Exact one-way methods for acoustic waveguides'.
@@ -77,9 +78,5 @@ Nilsson, B. and O. Brander: 1981, `The propagation of sound in cylindrical
   ducts with mean flow and bulk reacting lining - {IV}. {S}everal interacting
   discontinuities'.
 \newblock {\em IMA J. Appl. Math} {\bf 27}, 263--289.
-
-\bibitem{Young:1981}
-Young, R.: 1981, `On complete biorthogonal systems'.
-\newblock {\em Proc. Am. Math. Soc.} {\bf 83}(3), 537--540.
 
 \end{thebibliography}

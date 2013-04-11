@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  10 APR 2013 16:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  11 APR 2013 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,14 +265,14 @@ File: BBMwg.1 Graphic file (type eps)
 Underfull \vbox (badness 1596) has occurred while \output is active []
 
  [12]
-Overfull \hbox (5.28545pt too wide) in paragraph at lines 1080--1084
+Overfull \hbox (5.28545pt too wide) in paragraph at lines 1081--1085
 \OT1/cmr/m/n/10.95 Consequently, at the bor-der be-tween $
 []$ and $
 []$, there are right-marching
  []
 
 
-Overfull \hbox (1.15572pt too wide) in paragraph at lines 1085--1089
+Overfull \hbox (1.15572pt too wide) in paragraph at lines 1086--1090
 []\OT1/cmr/m/n/10.95 Since there are no sources to the right of $
 []$, $\OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
 m/n/10.95 )\OML/cmm/m/it/10.95 C[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
@@ -286,7 +286,7 @@ File: sc.eps Graphic file (type eps)
  <sc.eps>
 File: bc.eps Graphic file (type eps)
  <bc.eps> Figure 5
-Overfull \hbox (31.44295pt too wide) in paragraph at lines 1170--1186
+Overfull \hbox (31.44295pt too wide) in paragraph at lines 1171--1187
 \OT1/cmr/m/n/10.95 In (46[]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML
 /cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.
 95 to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, 
@@ -313,19 +313,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [16]
 File: FEMvsFourier.eps Graphic file (type eps)
  <FEMvsFourier.eps> Figure 8 [17]
-Overfull \hbox (0.80418pt too wide) in paragraph at lines 1345--1357
+Overfull \hbox (0.80418pt too wide) in paragraph at lines 1346--1358
 \OT1/cmr/m/n/10.95 guide. There are nu-mer-ous pos-si-ble bound-ary vari-a-tion
 s not com-mented
  []
 
 
-Overfull \hbox (1.22995pt too wide) in paragraph at lines 1345--1357
+Overfull \hbox (1.22995pt too wide) in paragraph at lines 1346--1358
 \OT1/cmr/m/n/10.95 Fourier se-ries. How-ever, the Build-ing Block method and we
 ll-established
  []
 
 
-Overfull \hbox (16.14249pt too wide) in paragraph at lines 1363--1367
+Overfull \hbox (16.14249pt too wide) in paragraph at lines 1364--1368
 []\OT1/cmr/m/n/10.95 Finally, it is pos-si-ble to ex-tend the tech-niques to co
 ver three-dimensional
  []
@@ -337,12 +337,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18]
 (./fourHarmScalWave.bbl References [19]) [20] (./fourHarmScalWave.aux) ) 
 Here is how much of TeX's memory you used:
- 2667 strings out of 493486
- 29592 string characters out of 3143548
- 93756 words of memory out of 3000000
- 5897 multiletter control sequences out of 15000+200000
+ 2666 strings out of 493486
+ 29581 string characters out of 3143548
+ 93752 words of memory out of 3000000
+ 5896 multiletter control sequences out of 15000+200000
  18902 words of font info for 71 fonts, out of 3000000 for 9000
  962 hyphenation exceptions out of 8191
  37i,18n,28p,448b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fourHarmScalWave.dvi (20 pages, 70672 bytes).
+Output written on fourHarmScalWave.dvi (20 pages, 70732 bytes).
