@@ -50,14 +50,14 @@
 \renewcommand{\vec}[1]{\bm{#1}}
 \renewcommand{\i}{\,\mathrm{i}}
 \newcommand{\e}{\,\mathrm{e}}
-\newcommand{\scl}{Schwarz--Chris\-tof\-fel}
+% \newcommand{\scl}{Schwarz--Chris\-tof\-fel}
 \newcommand{\scm}{Schwarz--Chris\-tof\-fel mapping}
-\newcommand{\upl}{\Pi^+}
-\newcommand{\uplc}{\overline{\Pi}\,^+}
+% \newcommand{\upl}{\Pi^+}
+% \newcommand{\uplc}{\overline{\Pi}\,^+}
 \newcommand{\R}{\mathbb R}
 \newcommand{\C}{\mathbb C}
-\newcommand{\cf}{\mathcal{C}}
-\newcommand{\imp}{\Rightarrow}
+% \newcommand{\cf}{\mathcal{C}}
+% \newcommand{\imp}{\Rightarrow}
 \newcommand{\pd}[2]{\dfrac{\partial#1}{\partial#2}}
 \newcommand{\pdt}[2]{\partial#1/\partial#2}
 \newcommand{\du}{\pd{}u}
@@ -89,13 +89,22 @@
     us University, V\"axj\"o} \author{Thomas
     \surname{Biro}\email{thomas.biro@jth.hj.se}} \institute{School of
     Engineering, J\"onk\"oping University, J\"onk\"oping}
-  \runningtitle{Fourier Methods for Harmonic Scalar Waves in General Waveguides}
+  \runningtitle{Fourier Methods for Harmonic Scalar Waves in General
+    Waveguides}
   \runningauthor{Andersson, Nilsson, Biro}
   \begin{abstract}
-    Wave scattering problems in two-dimensional waveguides of general
-    shapes and with varying boundary conditions are solved, using a
-    mixture of old and new techniques, including Fourier series,
-    conformal mappings, ....
+    Wave scattering problems in variously shaped waveguides with
+    varying boundary conditions is studied with the purpose to
+    investigate what can be done with classical Fourier methods. A set
+    of techniques, including newly developed conformal mapping
+    methods, wave splitting, Fourier series development where
+    non-normal operators have non-real eigenvalues, the Building block
+    Method, Dirichlet-to-Neumann operators, and reformulation of the
+    differential equtions in terms of equations for reflections and
+    transmission operators, are used to solve the problem. In an
+    example from acoustics, the results are, with good correspondence
+    in the low frequency domain, compared with a finite element method
+    solution to the same problem.
   \end{abstract}
   \keywords{Harmonic scalar waves, Fourier series, Building Block
     Method, Conformal mappings, Dirichlet-to-Neumann operators}
@@ -122,10 +131,10 @@ For simple geometries, for example straight channels with hard or soft
 walls, the solutions are easily found in terms of Fourier
 series. Examples using this technique are found in any basic text on
 partial differential equations. For more complex geometries or
-boundary conditions, purely numerical methods or more precisely, finite
-element methods, have during recent years, due to evolution of both
-the methods and the computers, become the natural choice for solving
-Helmholtz equation.
+boundary conditions, purely numerical methods or more precisely,
+finite element methods, have often during recent years, due to
+evolution of both the methods and the computers, become the natural
+choice for solving Helmholtz equation.
 
 % However, this is not done without problems. It is a well-known fact
 % that FEM-based methods run into trouble, i.e., require an extremely
@@ -686,10 +695,11 @@ presented elsewhere. See also \cite{Locker:2000} for a general
 treatise on eigenvalue problems based on functional analysis for
 differential equations with two-point boundary conditions such that
 like (\ref{eq:bvp2}), the related operator is non-self-adjoint and
-even non-normal. It is also worth noting \cite{Glav:2000} that the
-completeness property for $(\varphi_m)$ can be analysed as an analytic
-continuation of (\ref{eq:am}) from purely imaginary $Y$, for which
-completeness holds, to general $Y$.
+even non-normal. 
+% It is also worth noting \cite{Glav:2000} that the
+% completeness property for $(\varphi_m)$ can be analysed as an analytic
+% continuation of (\ref{eq:am}) from purely imaginary $Y$, for which
+% completeness holds, to general $Y$.
 
 
 \subsection{Conformal mapping techniques}
