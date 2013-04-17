@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  16 APR 2013 11:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  17 APR 2013 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -191,68 +191,68 @@ LaTeX Info: Redefining \bm on input line 204.
 ) (./fourHarmScalWave.aux)
 \openout1 = `fourHarmScalWave.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 Abstract Keywords
-LaTeX Font Info:    Try loading font information for U+msa on input line 124.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 124.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 124.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 98.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 124.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 98.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 145.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
  [1] [2]
 File: waveguide.1 Graphic file (type eps)
  <waveguide.1>
 Figure 1
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 232.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 206.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 232.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 206.
 
 
-Overfull \hbox (13.65894pt too wide) in paragraph at lines 219--245
+Overfull \hbox (13.65894pt too wide) in paragraph at lines 193--219
 \OT1/cmr/m/n/10.95 this waveg-uide schemat-i-cally. Us-ing the no-ta-tion $\U/m
 sb/m/n/10.95 R[] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ;$
  []
 
 [3] [4]
-Overfull \hbox (35.76784pt too wide) in paragraph at lines 578--583
+Overfull \hbox (35.76784pt too wide) in paragraph at lines 361--366
 \OT1/cmr/m/n/10.95 to trans-form the ge-om-e-try into a straight hor-i-zon-tal 
 chan-nel []
  []
@@ -265,14 +265,14 @@ File: BBMwg.1 Graphic file (type eps)
 Underfull \vbox (badness 5533) has occurred while \output is active []
 
  [12]
-Overfull \hbox (5.28545pt too wide) in paragraph at lines 1091--1095
+Overfull \hbox (5.28545pt too wide) in paragraph at lines 802--806
 \OT1/cmr/m/n/10.95 Consequently, at the bor-der be-tween $
 []$ and $
 []$, there are right-marching
  []
 
 
-Overfull \hbox (1.15572pt too wide) in paragraph at lines 1096--1100
+Overfull \hbox (1.15572pt too wide) in paragraph at lines 807--811
 []\OT1/cmr/m/n/10.95 Since there are no sources to the right of $
 []$, $\OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
 m/n/10.95 )\OML/cmm/m/it/10.95 C[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
@@ -286,7 +286,7 @@ File: sc.eps Graphic file (type eps)
  <sc.eps>
 File: bc.eps Graphic file (type eps)
  <bc.eps> Figure 5
-Overfull \hbox (31.44295pt too wide) in paragraph at lines 1181--1197
+Overfull \hbox (31.44295pt too wide) in paragraph at lines 882--898
 \OT1/cmr/m/n/10.95 In (46[]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML
 /cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.
 95 to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, 
@@ -313,19 +313,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [16]
 File: FEMvsFourier.eps Graphic file (type eps)
  <FEMvsFourier.eps> Figure 8 [17]
-Overfull \hbox (0.80418pt too wide) in paragraph at lines 1356--1368
+Overfull \hbox (0.80418pt too wide) in paragraph at lines 1050--1062
 \OT1/cmr/m/n/10.95 guide. There are nu-mer-ous pos-si-ble bound-ary vari-a-tion
 s not com-mented
  []
 
 
-Overfull \hbox (1.22995pt too wide) in paragraph at lines 1356--1368
+Overfull \hbox (1.22995pt too wide) in paragraph at lines 1050--1062
 \OT1/cmr/m/n/10.95 Fourier se-ries. How-ever, the Build-ing Block method and we
 ll-established
  []
 
 
-Overfull \hbox (16.14249pt too wide) in paragraph at lines 1374--1378
+Overfull \hbox (16.14249pt too wide) in paragraph at lines 1068--1072
 []\OT1/cmr/m/n/10.95 Finally, it is pos-si-ble to ex-tend the tech-niques to co
 ver three-dimensional
  []
@@ -345,4 +345,4 @@ Here is how much of TeX's memory you used:
  962 hyphenation exceptions out of 8191
  37i,18n,28p,448b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fourHarmScalWave.dvi (20 pages, 70956 bytes).
+Output written on fourHarmScalWave.dvi (20 pages, 70988 bytes).

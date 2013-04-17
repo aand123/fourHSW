@@ -13,29 +13,7 @@
 \fi
 
 \usepackage{amsmath}
-% \usepackage{amsthm}
-
-% \newtheorem{lemma}{Lemma}
-% \newtheorem{corollary}{Corollary}
-% \newtheorem{theorem}{Theorem}
-% \newtheorem{acknowledgement}[theorem]{Acknowledgement}
-% \newtheorem{algorithm}[theorem]{Algorithm}
 \newtheorem{axiom}{Axiom}
-% \newtheorem{case}[theorem]{Case}
-% \newtheorem{claim}[theorem]{Claim}
-% \newtheorem{conclusion}[theorem]{Conclusion}
-% \newtheorem{condition}[theorem]{Condition}
-% \newtheorem{conjecture}[theorem]{Conjecture}
-% \newtheorem{criterion}[theorem]{Criterion}
-% \newtheorem{definition}[theorem]{Definition}
-% \newtheorem{example}[theorem]{Example}
-% \newtheorem{exercise}[theorem]{Exercise}
-% \newtheorem{notation}[theorem]{Notation}
-% \newtheorem{problem}[theorem]{Problem}
-% \newtheorem{proposition}[theorem]{Proposition}
-% \newtheorem{remark}[theorem]{Remark}
-% \newtheorem{solution}[theorem]{Solution}
-% \newtheorem{summary}[theorem]{Summary}
 
 \usepackage{bm}
 
@@ -50,14 +28,9 @@
 \renewcommand{\vec}[1]{\bm{#1}}
 \renewcommand{\i}{\,\mathrm{i}}
 \newcommand{\e}{\,\mathrm{e}}
-% \newcommand{\scl}{Schwarz--Chris\-tof\-fel}
 \newcommand{\scm}{Schwarz--Chris\-tof\-fel mapping}
-% \newcommand{\upl}{\Pi^+}
-% \newcommand{\uplc}{\overline{\Pi}\,^+}
 \newcommand{\R}{\mathbb R}
 \newcommand{\C}{\mathbb C}
-% \newcommand{\cf}{\mathcal{C}}
-% \newcommand{\imp}{\Rightarrow}
 \newcommand{\pd}[2]{\dfrac{\partial#1}{\partial#2}}
 \newcommand{\pdt}[2]{\partial#1/\partial#2}
 \newcommand{\du}{\pd{}u}
@@ -85,8 +58,9 @@
     \surname{Andersson}\email{anders.andersson@jth.hj.se}}
   \institute{School of Engineering, J\"onk\"oping University,
     J\"onk\"oping} \author{B\"orje
-    \surname{Nilsson}\email{borje.nilsson@lnu.se}} \institute{Linn\ae
-    us University, V\"axj\"o} \author{Thomas
+    \surname{Nilsson}\email{borje.nilsson@lnu.se}}
+  \institute{Department of Mathematics, Linn{\ae}us 
+    University, V\"axj\"o} \author{Thomas
     \surname{Biro}\email{thomas.biro@jth.hj.se}} \institute{School of
     Engineering, J\"onk\"oping University, J\"onk\"oping}
   \runningtitle{Fourier Methods for Harmonic Scalar Waves in General
@@ -115,7 +89,7 @@
 
 Wave scattering in waveguides of different shapes is a classical
 problem in applied mathematics. The problem appears in many
-applications, in acoustics, optics, electro-dynamics and quantum
+applications, in acoustics, optics, electrodynamics and quantum
 physics.
 
 When treating this problem mathematically, the task is to find
@@ -349,197 +323,6 @@ definition of $p_{-}$ and $p_{+},$ we formulate the following
   (\ref{104}-\ref{106}).
 \end{description}
 
-% \subsection{Formulation and simplification of the scattering
-% problem}
-
-% A scattering problem consists of the determination of reflected and
-% transmitted waves when sources at infinity, or equivalently incident
-% waves, are known. Connecting waveguides are assumed to be straight,
-% which is motivated by the sake of simplicity and by applications;
-% the splitting $p=p_{-}+p_{+}$ in leftgoing and rightgoing waves is
-% possible for other geometries but the theory would be more
-% complicated. Let us study the waveguide depicted in
-% Figure~\ref{fig:wg2} a with a wave incident from left only. Then we
-% have
-% \begin{equation}
-%   \left\{
-%     \begin{array}
-%       [c]{l}%
-%       p=p_{+}^{A,\text{ in}}+R^{A}p_{+}^{A,\text{ in}}\text{ in }A\\
-%       p=p_{-}+p_{+}\text{ in }B\\
-%       p=T^{CA}p_{+}^{A,\text{ in}}\text{ in }C
-%     \end{array}
-%   \right.  .\label{108}%
-% \end{equation}
-% Here, $p_{+}^{A,\text{ in}}$ is the known incident wave from left,
-% $R^{A}$: $X_{+}^{A}\rightarrow X_{-}^{A},$ is the reflection
-% operator and $T^{CA}$: $X_{+}^{A}\rightarrow X_{+}^{C},$ is the
-% transmission operator. A super index $A,B,C$ indicates the specific
-% waveguide. Note that the connecting region between the straight
-% waveguides is assumed to be bounded.%
-
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=\textwidth]{waveguide.2}
-%   \caption{Waveguides with bounded connecting regions between
-%   straight waveguide sections.}
-%   \label{fig:wg2}
-% \end{figure}
-% Solutions $R^{A}$ and $T^{CA}$ to (\ref{108}) will be expressed in
-% the solutions to two auxiliary problems that are easier to solve
-% than (\ref{108}).  These auxiliary scattering problems must,
-% however, be solved for incident waves from both left and right, the
-% first being transition one between the straight waveguides $A$ and
-% $B$ shown in Fig.~\ref{fig:wg2}b. For this transition%
-% \begin{equation}
-%   \left\{
-%     \begin{array}
-%       [c]{l}%
-%       p=p_{+}^{A,\text{ in}}+R_{1}^{A}p_{+}^{A,\text{ in}}+T_{1}^{AB}p_{-}^{B,\text{
-%           in}}\text{ in }A\\[1ex]
-%       p=p_{-}^{B,\text{ in}}+R_{1}^{B}p_{-}^{B,\text{ in}}+T_{1}^{BA}p_{+}^{A,\text{
-%           in}}\text{ in }B
-%     \end{array}
-%   \right.  \label{109}%
-% \end{equation}
-% defines the reflection operators $R_{1}^{A}$: $X_{+}^{A}\rightarrow
-% X_{-}^{A}$ and $R_{1}^{B}$: $X_{-}^{B}\rightarrow X_{+}^{B}$
-% together with the transmission operators $T_{1}^{BA}$:
-% $X_{+}^{A}\rightarrow X_{+}^{B}$ and $T_{1}^{AB}$:
-% $X_{-}^{B}\rightarrow X_{-}^{A}.$ Corresponding definitions for
-% connecting region 2 between waveguides $B$ and $C,$ see
-% Fig.~\ref{fig:wg2}c are%
-% \begin{equation}
-%   \left\{
-%     \begin{array}
-%       [c]{l}%
-%       p=p_{+}^{B,\text{ in}}+R_{2}^{B}p_{+}^{B,\text{ in}}
-%       +T_{2}^{BC}p_{-}^{C,\text{in}}\text{ in }B\\[1ex]
-%       p=p_{-}^{C,\text{ in}}+R_{2}^{C}p_{-}^{C,\text{ in}}+
-%       T_{2}^{CB}p_{+}^{B,\text{in}}\text{ in }C
-%     \end{array}
-%   \right.  ,\label{110}%
-% \end{equation}
-% where the domain and the range for the reflection and transmission
-% operator are defined in analogy with those for (\ref{109}).
-
-% By using linearity and (\ref{108}--\ref{110}) we get%
-% \begin{equation}
-%   \left\{
-%     \begin{array}
-%       [c]{l}%
-%       R^{A}p_{+}^{A,\text{ in}}=R_{1}^{A}p_{+}^{A,\text{in}}
-%       +T_{1}^{AB}p_{-}\\[1ex]
-%       p_{+}=R_{1}^{B}p_{-}+T_{1}^{BA}p_{+}^{A,\text{ in}}\\[1ex]
-%       p_{-}=R_{2}^{B}p_{+}\\[1ex]
-%       T^{CA}p_{+}^{A,\text{ in}}=T_{2}^{CB}p_{+}%
-%     \end{array}
-%   \right.  \label{111}%
-% \end{equation}
-% for the waveguide with two connecting regions,
-% Fig.~\ref{fig:wg2}a. The first equation in (\ref{111}) expresses
-% that the minus or leftgoing wave in A consists of a sum of the
-% reflected wave in the first connecting region plus the transmission
-% from $B.$ Equations two and three describe the relations in $B$
-% whereas the fourth equation gives the transmission to $C.$
-
-% A combination of the second and third equation in (11) yields
-% \begin{equation}\label{112}
-%   (I_{+}^{B}-R_{1}^{B}R_{2}^{B})p_{+}=T_{1}^{BA}p_{+}^{A,\rm{in}},
-% \end{equation}
-% where $I_{+}^{B}$ is the unit operator on $X_{+}^{B}$. If we assume
-% that the operator $T_{+}^{BA}:X_{+}^{B}\rightarrow X_{+}^{B}$ exists
-% where
-% \begin{equation}\label{113a}
-%   T_{+}^{BA}=(I_{+}^{B}-R_{11}^{B}R_{2}^{B})^{-1}T_{1}^{BA},
-% \end{equation}
-% the final result
-% \begin{equation}\label{BBfinal}
-%   \left\{
-%     \begin{array}
-%       [c]{l}%
-%       R^A=R_1^A+T_1^{AB}R_2^{B}T_+^{BA}\\
-%       T^{CA}=T_2^{CB}T_+^{BA}\\
-%       p=(R_2^{B}T_+^{BA}+T_+^{BA})^{-1}p_+^{A,\rm{in}}\, \rm{in}~ B\\
-%     \end{array}
-%   \right.
-% \end{equation}
-% is received.
-
-
-% % A combination of the second and third equation in (\ref{111})
-% % yields%
-% % \begin{equation}
-% %   \left( I_{+}^{B}-R_{1}^{B}R_{2}^{B}\right)
-% %   p_{+}=T_{1}^{BA}p_{+}^{A,\text{in}}, \label{112}%
-% % \end{equation}
-% % where $I_{+}^{B}$ is the unit operator in $X_{+}^{B}.$ If we
-% % assume
-% % that $\left( I_{+}^{B}-R_{1}^{B}R_{2}^{B}\right) ^{-1}$:
-% % $X_{+}^{B}\rightarrow X_{+}^{B},$ exists, the final result
-% % \begin{equation}
-% %   \left\{
-% %     \begin{array}
-% %       [c]{l}%
-% %       R^{A}=R_{1}^{A}+T_{1}^{AB}R_{2}^{B}
-% %       \left(I_{+}^{B}-R_{1}^{B}R_{2}^{B}\right)^{-1}T_{1}^{BA}\\
-% %       T^{CA}=T_{2}^{CB}
-% %       \left(I_{+}^{B}-R_{1}^{B}R_{2}^{B}\right)^{-1}T_{1}^{BA}%
-% %     \end{array}
-% %   \right.  , \label{113}%
-% % \end{equation}
-% % is received.
-
-% Methods like (\ref{BBfinal}) have been known since the end of the
-% 1940:s \cite{kerns1949} and are denoted the Building Block method
-% \cite{nilssonbrander1981b} in acoustic theory and cascade technique
-% \cite{jones1986} in electromagnetic theory.
-
-% For a numerical solution, (\ref{BBfinal}) is transferred to a matrix
-% equation by a truncated expansion in waveguide modes. Unless the
-% wavelength is much smaller than the transverse dimension of the
-% wavelength, the required size of the matrix representing
-% $I_{+}^{B}-R_{1}^{B}R_{2}^{B}$ to get sufficient accuracy is
-% small. The reason is that matrix elements, except for the lowest, is
-% usually $O(ka),$ when $ka$ tends to zero where $a$ is a typical
-% transverse dimension of the waveguide. This has been proved for
-% specific geometries
-% \cite{boijnilsson2003,boijnilsson2006,nilsson1998}. The Building
-% Block Method, described above, assumes that there is a straight
-% connecting waveguide between the two connecting regions. If this is
-% not the case, such a straight part of length $\delta$ can be
-% introduced and letting $\delta$ tend to zero at the end of the
-% analysis. The convergence of this procedure is rather quick as
-% demonstrated for a few cases \cite{nilssonbrander1981b}.
-
-% This section is ended with a discussion of existence and uniqueness
-% of the solutions to (\ref{108}-\ref{110}) and (\ref{BBfinal}),
-% starting with the cases $\beta=0$ and $\beta=\i\infty$ for the
-% connecting regions; in the straight parts $\beta$ is assumed to
-% vanish. With our assumptions about the boundary of connecting
-% region, the Fredholm alternative holds \cite{cessenat1996} for the
-% scattering problems (\ref{108}-\ref{110}). More precisely, we have
-% either (a) the homogeneous problem without incident waves has the
-% unique solution $p=0;$ then the scattering problem is uniquely
-% solvable or (b) the homogeneous problem has non-trivial solutions
-% $p=p_{\text{hom}}$, which happens for $k$ belonging to a discrete
-% set $\mathcal{K}=\left\{ k=k_{i}\text{:
-% }k_{1}<k_{2}<k_{3}<\ldots\right\} ;$ then the solution
-% $p=p_{\text{inhom}}+p_{\text{hom}}$ to the scattering problem exists
-% but the homogeneous solution $p_{\text{hom}}$ is undetermined
-% denoted a trapped mode. Consequently, the inverse $\left(
-%   I_{+}^{B}-R_{1}^{B}R_{2}^{B}\right)^{-1}$ exists for all positive
-% $k$ except for a countable set.
-
-% The Fredholm alternative holds for case $\beta\neq0$ although it is
-% not established in the cited reference \cite{cessenat1996} and no
-% proof is presented here. A trapped mode cannot exist in a region
-% where $\Re\beta>0$ due to energy conservation. Since a trapped mode
-% cannot be compactly supported due to the analytic property of the
-% solution to Helmholtz equation, we formulate the proposition that
-% the scattering problem is uniquely solvable if there is a finite
-% region with $\Re\beta>0.$
-
 \section{Solving the one-block problems}
 \label{sec:oneblock}
 
@@ -598,7 +381,7 @@ where $\mu(u,v)=\abs{F'(w)}^2$ and $Y(u)=\beta(u)\abs{F'(u+i)}$.
 \end{figure}
 
 Following the techniques, outlined in \cite{Andersson-Nilsson:2009},
-where an electro-magnetic scattering problem is treated, or
+where an electromagnetic scattering problem is treated, or
 \cite{Nilsson:2002}, where similar problems from acoustics are solved,
 we expand $\Phi(u,v)$ in cosine Fourier series over $v$, assuming that
 \begin{equation}
@@ -696,11 +479,6 @@ treatise on eigenvalue problems based on functional analysis for
 differential equations with two-point boundary conditions such that
 like (\ref{eq:bvp2}), the related operator is non-self-adjoint and
 even non-normal. 
-% It is also worth noting \cite{Glav:2000} that the
-% completeness property for $(\varphi_m)$ can be analysed as an analytic
-% continuation of (\ref{eq:am}) from purely imaginary $Y$, for which
-% completeness holds, to general $Y$.
-
 
 \subsection{Conformal mapping techniques}
 \label{sec:confmap}
@@ -758,16 +536,6 @@ diagonal elements.
 \subsubsection{Determining Reflection and Transmission operators (The
   RT method)}
 \label{sec:RT}
-
-% With the Building Block Method, see
-% Section~\ref{sec:comb-blocks-build}, reflection and transmission
-% operators for a waveguide, splitted in several blocks, can be
-% calculated. To be able to use the method, reflection and transmission
-% operators for each single block must be determined. This can be done
-% without any prior determination of the field inside the block, by a
-% reformulation of (\ref{eq:DE}) into numerically stable differential
-% equations in terms of $R^+$, $R^-$, $T^+$ and $T^-$.
-
 
 Inspired by the partition $p=p_-+p_+$ in a straight waveguide
 where the two terms can be seen as representing waves marching from
@@ -849,9 +617,6 @@ where
     &M=(C+D)^{-1}\left(-D'+B^2+(A+C)D\right).
   \end{split}
 \end{equation}
-% For simplicity, we assume that $C=D=B_-+f(u)(B_+-B_-)$, where $f$ is
-% a regular real function such that $f(u)=0$ to the left and $f(u)=1$
-% to the right.
 
 For the determination of $T^+$ and $R^+$, we consider (\ref{eq:RT})
 assuming that there are no sources in $\Omega_R$. Let $u_2\in\Omega_R$
@@ -963,26 +728,6 @@ matrix equations are integrated across singularities, even when no
 knowledge about existence or placements of these is at hand, see for
 example \cite{Li-Kahan:2012}.
 
-% Note also that the reflection and transmission operators can be
-% determined from $\Lambda_R$ and $\Lambda_L$. For details, see
-% \cite{Fishman:1998}.
-
-% For the determination of the field in the straight transition region
-% between two blocks, we use (\ref{112}) and the third equation in
-% (\ref{111}). Assuming no sources from the right side of the block to
-% the right, we get
-% \begin{equation}
-%   \label{eq:Mp}
-%   \begin{cases}
-%     p_{+}=\left(I-R_{1}^{B}R_{2}^{B}\right)^{-1}
-%     T_{1}^{BA}p_{+}^{A,\text{in}},\\
-%     p_-=R_2^Bp_+,
-%   \end{cases}
-% \end{equation}
-% where $p_+^{A,\text{in}}$ is the right-going part of the field to the
-% left of the left block, $R_1^B$ and $T_1^{BA}$ are reflection and
-% transmission operators for the block to the left, and $R_2^B$ is a
-% reflection operator for the block to the right.
 
 \section{Combining the Blocks - the Building Block Method}
 \label{sec:comb-blocks-build}
@@ -991,11 +736,6 @@ The Building Block Method (BBM), see \cite{nilssonbrander1981b},
 allows the determination of reflection and transmission operators for
 a combination of several sections (``blocks'') of the waveguide, for
 which these operators are known.  
-% The
-% equations~(\ref{eq:DtNDE1}--\ref{eq:DtNDE2}) tend often to be more
-% stiff than the equations~(\ref{eq:Ricatti1}--\ref{eq:Ricatti4}), and
-% hence, a better accuracy could be achieved using BBM, if no explicit
-% determination of the field inside the blocks is required.
 
 \begin{figure}[htb]
   \centering
@@ -1008,12 +748,9 @@ which these operators are known.
 
 Assume that two subsequent blocks $\Omega_1$ and $\Omega_3$, are
 connected by a region $\Omega_2$ which is straight and with constant
-cross-section, see figure~\ref{fig:wg4}. 
-%For simplicity, we assume
-%that $\Omega_2$ is parallel to the $x$-axis. 
-Furthermore, assume that
+cross-section, see figure~\ref{fig:wg4}.  Furthermore, assume that
 reflection and transmission operators in matrix form for $\Omega_1$
-and $\Omega_3$ are known. 
+and $\Omega_3$ are known.
 
 In contrast to many descriptions of the BBM, we choose here to define
 $\vec\Phi=\vec\Phi^++\vec\Phi^-$ as varying with the position along
@@ -1037,31 +774,6 @@ use the notation
   &R^+_3=R^+(t_3,t_2),&&T^+_3=T^+(t_3,t_2),\\
   &\Rtot=R^+(t_3,t_0),&&\Ttot=T^+(t_3,t_0).
 \end{align*}
-% \begin{center}
-%   \begin{tabular}{ll}
-%     Symbol&Explanation\\
-%     \hline
-%     {}\\[-2ex]
-%     $R^{+}_1=R^+(t_1,t_0)$&Reflection operator for $\Omega_1$ for waves entering
-%     from the left.\\
-%     $T^{+}_1$&Transmission operator for $\Omega_1$ for waves entering
-%     from the left.\\
-%     $R^{-}_1$&Reflection operator for $\Omega_1$ for waves entering
-%     from the right.\\
-%     $T^{-}_1$&Transmission operator for $\Omega_1$ for waves entering
-%     from the right.\\
-%     $R^{+}_3$&Reflection operator for $\Omega_3$ for waves entering
-%     from the left.\\
-%     $T^{+}_3$&Transmission operator for $\Omega_3$ for waves entering
-%     from the left.\\
-%     $\Rtot$&Reflection operator for 
-%     $\cup_{j=1}^3\Omega_j$ for waves entering
-%     from the left.\\
-%     $\Ttot$&Transmission operator for $\cup_{j=1}^3\Omega_j$ for
-%     waves entering from the left.\\
-%     \hline
-%   \end{tabular}  
-% \end{center}
 
 For the straight part $\Omega_2$ with length $\ell$ and width $a$,
 we define
@@ -1075,8 +787,7 @@ we define
     \vdots&\vdots&&\ddots
   \end{pmatrix},\quad 0\le t\le\ell,
 \end{equation}
-where $\alpha_n=\sqrt{k^2-\dfrac{n^2\pi^2}{a^2}}$.% and $x$ is the
-%horizontal distance from the border between $\Omega_1$ and $\Omega_2$.
+where $\alpha_n=\sqrt{k^2-\dfrac{n^2\pi^2}{a^2}}$.
 
 Assume that a right-marching field $\Phiin=\vec\Phi^+(t_0)$ is entering 
 $\Omega_1$ from the left, and that there are no sources to the right of
@@ -1136,14 +847,6 @@ element method solution.
 \subsection{Boundary conditions}
 \label{sec:boundary-conditions}
 
-% In this geometry, we assume a smoothly and monotonuosly increasing
-% admittance in the intervals $F_j([-2,-1]+\i)$, a constant admittance
-% $\beta=0.5+0.5i$ in the intervals $F_j([-1,1]+\i)$, and finally
-% smoothly monotonously decreasing admittance in the intervals
-% $F_j([1,2]+\i)$, where the functions $F_j, j=1,2$ are the conformal
-% mappings defined in Section~\ref{sec:conformal-mappings}. The
-% remaining boundaries are hard.
-
 
 The boundaries are hard, i.e., have zero admittance, except for two
 intervals on the upper boundary. In both $\Omega_1$ and $\Omega_3$,
@@ -1152,8 +855,6 @@ $F_j([-2,2]+\i)$ for $j\in\{1,2\}$, reaching the maximal level
 $\beta=0.5+0.5\i$ in the intervals $F_j([-1,1]+\i)$, where the
 functions $F_j$ are the conformal mappings defined in
 Section~\ref{sec:conformal-mappings}. 
-% Additionally, results for
-% $\beta=0$ on all the boundary have also been calculated.
 
 \subsection{Conformal mappings}
 \label{sec:conformal-mappings}
@@ -1346,13 +1047,6 @@ $4\cdot10^{-3}$.
 \section{Discussion and conclusion}
 \label{sec:conclusion}
 
-% The technique used in the example can be extended to cover ... In
-% the example, we have a smooth boundary and smoothly varying boundary
-% conditions. A discontinuity in the geometry or in the boundary
-% conditions can be treated by splitting the waveguide at the
-% discontinuity in two new building blocks, and using for example mode
-% matching techniques when gluing them together.
-
 The example problem in Section~\ref{sec:numerical-example} is of
 course not a ``general'' wave\-guide. There are numerous possible
 boundary variations not commented so far. For example, the methods in
@@ -1376,32 +1070,6 @@ three-dimensional problems, at least when variations in the geometry
 take place in at most two dimensions at the time. We refer to the
 discussion in \cite{Nilsson:2002}.
 
-% Below follows a list of some
-% such problems and suggestions how to treat them:
-
-% \begin{description}
-% \item[The boundary has sharp vertices.] When solving the one-block
-%   problems with the methods described in Section~\ref{sec:oneblock},
-%   we assume that the waveguide has smooth boundaries. Elsewise, the
-%   $\mu$ function in (\ref{eq:bvp2}) will have singularities on the
-%   boundaries. However, as is illustrated in... 
-% \item[Sudden changes in the boundary conditions.] A disadvantage with
-%   the Fourier methods seems to be that they require a boundary and
-%   boundary conditions with a high degree of smoothness. In the example
-%   in Section~\ref{sec:numerical-example}, this is the case. If not,
-%   the first and second derivatives of the $\lambda$ functions, used in
-%   eqs.~(\ref{eq:A}) and (\ref{eq:B2}), will contain singularities.
-%   However...
-% \item[Varying boundary conditions in both boundaries.] In
-%   Section~\ref{sec:oneblock}, we assumed that one of the boundaries
-%   was hard. This made it possible to develop the field in the
-%   waveguide in Fourier cosine series. If that is not the case...
-% \item[Combinations of several different changes.]
-% \item[Three-dimensional waveguides.] The methods are under certain
-%   conditions applicable even in three-dimensional problems. If the
-%   changes in geometry take place in at most two dimensions at the
-%   time,...
-% \end{description}
 
 The most time-consuming part of the calculations is the determination
 of the matrices $A$ and $B^2$ in (\ref{eq:DE}) for a large set of
@@ -1450,53 +1118,6 @@ It is beyond the scope of this paper to develop more precise bounds
 for this domain. We can only conclude that the combination of
 semi-analytic techniques evolved here is a well working
 alternative to different FEM-based numerical methods.
-
-
-%sources
-% of the disparities revealed in Figure~\ref{fig:FEMvsFourier}. It is a
-% well-known fact that the number of mesh elements required to get an
-% accurate FEM solution to a wave scattering problem increases rapidly
-% with growing fequencies, see for example \cite{Ihlenburg:1998} or
-% \cite{Harari:2005}. However, the FEM results seem to be stable under a
-% change of mesh size in the frequency interval we are investigating.
-
-% On the other hand, the required matrix size in the Fourier methods
-% developed in this article depends also on the frequency, Even if the
-% simple stability test mentioned above indicates a stable solution
-% already for comparably small matrices, it is worth noticing that for
-% non-hard boundaries, the ommited matrix elements could be of
-% substantial size.  A thorough examination of the $A$ and $B^2$
-% matrices in (\ref{eq:DE}) and their origins exposes some interesting
-% details. The cosine series of a sine function converges slowly, which
-% means that the values of $\alpha_n$ are relatively large even for
-% large values of $n$. For $u$-values corresponding to varying boundary
-% conditions, the values of $\lambda'$ and $\lambda''$ are substantial,
-% giving that the elements of $A$ and $B^2$ could be of a considerable
-% size, even far from the matrix diagonal. This means that when
-% truncating these matrices to a tractable size, important information
-% might get lost.
-
-% There are ways to overcome problems related to the Gibbs phenomenon in
-% Fourier series, see for example \cite{Gottlieb-Shu:1997}. However, we
-% have not in the example shown here implemented any such methods.
-
-% % On the other hand, we have found no signs of convergence to the FEM
-% % solution when increasing the size of the truncated matrices. In an
-% % numerical experiment with results shown in Table ..., the solution
-% % for $k=5$ was calculated using matrices truncated to $N\times N$ for
-% % $N=2,4,\dots,30$. The results seem to indicate that a three-digit
-% % accuracy is reached already for $N=4$.
-
-% Even though an extensive error-checking has been applied to the code,
-% we cannot completely disregard the possibility of an erroneous
-% computer implementation of the mathematical methods as an explantion
-% to the discrepancy between the results of the two methods.
-
-% At the present stage, we can just conclude that the semi-analytical
-% Fourier methods discussed in this article are well working
-% alternatives for wave scattering problems in the low-frequency
-% domain. More precise bounds for this domain are still to be
-% determined.
 
 \bibliographystyle{klunum} 
 \bibliography{referenser}
