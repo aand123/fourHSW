@@ -72,8 +72,8 @@
     investigate what can be done with classical Fourier methods. A set
     of techniques, including newly developed conformal mapping
     methods, wave splitting, Fourier series development where
-    non-normal operators have non-real eigenvalues, the Building block
-    Method, Dirichlet-to-Neumann operators, and reformulation of the
+    non-normal operators have non-real eigenvalues, the building block
+    method, Dirichlet-to-Neumann operators, and reformulation of the
     differential equtions in terms of equations for reflections and
     transmission operators, are used to solve the problem. In an
     example from acoustics, the results are, with good correspondence
@@ -110,12 +110,6 @@ finite element methods, have often during recent years, due to
 evolution of both the methods and the computers, become the natural
 choice for solving Helmholtz equation.
 
-% However, this is not done without problems. It is a well-known fact
-% that FEM-based methods run into trouble, i.e., require an extremely
-% fine mesh and hence huge amounts of computer memory, in the low
-% frequency domain, i.e., when the constant $k$ in
-% (\ref{eq:Helmholtz1}) is small.
-
 However, motivated by both the mathematics and applications involving
 inverse wave scattering problems, we find it interesting to see what
 can be done with the classical semi-analytic Fourier methods, even
@@ -142,8 +136,8 @@ containing a set of methods:
 \end{itemize}
 
 Additional well-known tools such as mode matching and Wiener--Hopf
-methods, are necessary to solve general waveguide problems, but are
-not used in this article.
+methods, see for example \cite{jones1986}, are necessary to solve
+general waveguide problems, but are not used in this article.
 
 In an example taken from acoustic, i.e., the field in the waveguide
 is scalar, we show how these techniques can be combined, in order to
@@ -198,7 +192,7 @@ axis aligned with $V_{\text{R}}$ and the negative with $V_{\text{L}}.$
 Fig.  \ref{fig:wg1} depicts this waveguide schematically.%
 \begin{figure}[htb]
   \centering
-  \includegraphics[scale=1]{waveguide.1}
+  \includegraphics[scale=1]{waveguide-1}
   \caption{Waveguide $V=V_L\cup V_i\cup V_R$ consisting of straight
     parts $V_L$ and $V_R$ open to infinity and a bounded connecting
     part $V_i$.}
@@ -374,7 +368,7 @@ yields
 where $\mu(u,v)=\abs{F'(w)}^2$ and $Y(u)=\beta(u)\abs{F'(u+i)}$.
 \begin{figure}[htb]
   \centering
-  \includegraphics[scale=1]{waveguide.3}
+  \includegraphics[scale=1]{waveguide-3}
   \caption{A single block in the $z=x+\i y$ plane and the $w=u+\i v$
     plane.}
   \label{fig:confmap}
@@ -471,14 +465,14 @@ for the expansion
 \end{equation}
 
 Furthermore, the system $(\varphi_m)$ is proved to be a basis in
-$L^2(0,1)$ using functional analysis \cite{Benzinger:1974}, see also
-\cite{Kato:1995}, where the assumptions for these theorems are
-established by an asymptotic eigenvalue analysis. Details are
-presented elsewhere. See also \cite{Locker:2000} for a general
-treatise on eigenvalue problems based on functional analysis for
-differential equations with two-point boundary conditions such that
-like (\ref{eq:bvp2}), the related operator is non-self-adjoint and
-even non-normal. 
+L$^2(0,1)$ \cite{Schwartz:1954}. An alternative proof can be given
+based on the existence of a sequence biorthogonal to $(\varphi_m)$
+using a theorem by Bari \cite{Bari:1944}, see \cite{Christensson:2003}
+for a modern presentation of this theorem. It is interesting to note
+that the biorthogonal property (\ref{eq:bilinear}) in a complex
+Hilbert space with general complex $Y$ can be seen as an analytic
+continuation of the orthogonality property in a real Hilbert space
+with purely imaginary $Y$.
 
 \subsection{Conformal mapping techniques}
 \label{sec:confmap}
@@ -739,7 +733,7 @@ which these operators are known.
 
 \begin{figure}[htb]
   \centering
-  \includegraphics[width=\textwidth]{BBMwg.1}
+  \includegraphics[width=\textwidth]{BBMwg-1}
   \caption{Waveguide divided in blocks. $\Omega_2$ is straight and
     with constant cross-section.}
   \label{fig:wg4}

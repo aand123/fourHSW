@@ -5,42 +5,42 @@ The style file: klunum.bst
 Database file #1: referenser.bib
 You've used 14 entries,
             2380 wiz_defined-function locations,
-            602 strings with 5709 characters,
-and the built_in function-call counts, 5174 in all, are:
-= -- 487
+            603 strings with 5577 characters,
+and the built_in function-call counts, 5193 in all, are:
+= -- 489
 > -- 146
-< -- 19
+< -- 17
 + -- 46
 - -- 38
-* -- 463
-:= -- 852
-add.period$ -- 31
+* -- 478
+:= -- 857
+add.period$ -- 30
 call.type$ -- 14
 change.case$ -- 75
 chr.to.int$ -- 14
 cite$ -- 14
-duplicate$ -- 226
-empty$ -- 430
+duplicate$ -- 222
+empty$ -- 436
 format.name$ -- 58
-if$ -- 1059
+if$ -- 1053
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 18
+missing$ -- 17
 newline$ -- 60
 num.names$ -- 42
-pop$ -- 70
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 89
 quote$ -- 0
-skip$ -- 176
+skip$ -- 168
 stack$ -- 0
-substring$ -- 414
-swap$ -- 61
-text.length$ -- 6
+substring$ -- 437
+swap$ -- 54
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 76
+type$ -- 78
 warning$ -- 0
-while$ -- 45
+while$ -- 46
 width$ -- 0
-write$ -- 143
+write$ -- 144

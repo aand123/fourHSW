@@ -16,11 +16,15 @@ Andersson, A. and B. Nilsson: 2009, `Electro-magnetic scattering in variously
 \newblock In: {\em AIP Conference Proceedings: 3rd Conference on Mathematical
   Modeling of Wave Phenomena}, Vol. 1106. pp. 36--45.
 
-\bibitem{Benzinger:1974}
-Benzinger, H.: 1974, `An application of the {H}ausdorff--{Y}oung Inequality to
-  Eigenfunction Expansions'.
-\newblock In: {\em Ordinary and partial differential equations, Proceedings of
-  the conference held at Dundee, 1974}. pp. 41--46.
+\bibitem{Bari:1944}
+Bari, N.: 1944, `Sur les syst${\rm \grave{e}}$mes complets de functions
+  orthogonales'.
+\newblock {\em Mat. {S}bornik} {\bf 14}(56), 51--108.
+
+\bibitem{Christensson:2003}
+Christensson, O.: 2003, {\em An {I}ntroduction to {F}rames and {R}iesz
+  {B}ases}.
+\newblock Boston: Birkh\"{a}user.
 
 \bibitem{Fishman:1998}
 Fishman, L., A.~K. Gautesen, and Z. Sun: 1998, `An exact, well-posed, one-way
@@ -39,10 +43,6 @@ Ihlenburg, F.: 1998, {\em Finite element analysis of acoustic scattering}, Vol.
 Jones, D.~S.: 1986, {\em Acoustic and electromagnetic waves}.
 \newblock Oxford {U}niversity press, Oxford.
 
-\bibitem{Kato:1995}
-Kato, T.: 1995, {\em Perturbation theory for linear operators}.
-\newblock Springer, Berlin.
-
 \bibitem{kerns1949}
 Kerns, D.~M.: 1949, `Basis of the application of network equations to waveguide
   problems'.
@@ -52,12 +52,6 @@ Kerns, D.~M.: 1949, `Basis of the application of network equations to waveguide
 Li, R.-C. and W. Kahan: 2012, `A family of anadromic numerical methods for
   matrix {R}iccati differential equations'.
 \newblock {\em Math. Comp.} {\bf 81}(277), 233--265.
-
-\bibitem{Locker:2000}
-Locker, J.: 2000, {\em Spectral {T}heory of {N}on--{S}elf--{A}djoint
-  {T}wo--{P}oint {D}ifferential {O}perators}, Vol.~73 of {\em Mathematical
-  {Surveys} and {M}onographs}.
-\newblock American Mathematical Society, Providence, Rhode Island.
 
 \bibitem{Lu:1999}
 Lu, Y.~Y.: 1999, `Exact one-way methods for acoustic waveguides'.
@@ -73,5 +67,10 @@ Nilsson, B. and O. Brander: 1981, `The propagation of sound in cylindrical
   ducts with mean flow and bulk reacting lining - {IV}. {S}everal interacting
   discontinuities'.
 \newblock {\em IMA J. Appl. Math} {\bf 27}, 263--289.
+
+\bibitem{Schwartz:1954}
+Schwartz, J.: 1954, `Perturbations of spectral operators, and applications,
+  {I}. Bounded perturbations ({L}emma 14)'.
+\newblock {\em Pacific J. of Math.} {\bf 4}, 415--458.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  17 APR 2013 14:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2012.10.22)  22 APR 2013 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -226,53 +226,54 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 98.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 113.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
  [1] [2]
-File: waveguide.1 Graphic file (type eps)
- <waveguide.1>
-Figure 1
+File: waveguide-1.eps Graphic file (type eps)
+
+<waveguide-1.eps> Figure 1
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 206.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 200.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 206.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 200.
 
 
-Overfull \hbox (13.65894pt too wide) in paragraph at lines 193--219
+Overfull \hbox (13.65894pt too wide) in paragraph at lines 187--213
 \OT1/cmr/m/n/10.95 this waveg-uide schemat-i-cally. Us-ing the no-ta-tion $\U/m
 sb/m/n/10.95 R[] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ;$
  []
 
 [3] [4]
-Overfull \hbox (35.76784pt too wide) in paragraph at lines 361--366
+Overfull \hbox (35.76784pt too wide) in paragraph at lines 355--360
 \OT1/cmr/m/n/10.95 to trans-form the ge-om-e-try into a straight hor-i-zon-tal 
 chan-nel []
  []
 
 [5]
-File: waveguide.3 Graphic file (type eps)
- <waveguide.3> Figure 2 [6] [7] [8] [9] [10]
-File: BBMwg.1 Graphic file (type eps)
- <BBMwg.1> Figure 3 [11]
+File: waveguide-3.eps Graphic file (type eps)
+ <waveguide-3.eps> Figure 2 [6] [7] [8] [9] [10]
+File: BBMwg-1.eps Graphic file (type eps)
+ <BBMwg-1.eps> Figure 3
+[11]
 Underfull \vbox (badness 5533) has occurred while \output is active []
 
  [12]
-Overfull \hbox (5.28545pt too wide) in paragraph at lines 802--806
+Overfull \hbox (5.28545pt too wide) in paragraph at lines 796--800
 \OT1/cmr/m/n/10.95 Consequently, at the bor-der be-tween $
 []$ and $
 []$, there are right-marching
  []
 
 
-Overfull \hbox (1.15572pt too wide) in paragraph at lines 807--811
+Overfull \hbox (1.15572pt too wide) in paragraph at lines 801--805
 []\OT1/cmr/m/n/10.95 Since there are no sources to the right of $
 []$, $\OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
 m/n/10.95 )\OML/cmm/m/it/10.95 C[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
@@ -286,7 +287,7 @@ File: sc.eps Graphic file (type eps)
  <sc.eps>
 File: bc.eps Graphic file (type eps)
  <bc.eps> Figure 5
-Overfull \hbox (31.44295pt too wide) in paragraph at lines 882--898
+Overfull \hbox (31.44295pt too wide) in paragraph at lines 876--892
 \OT1/cmr/m/n/10.95 In (46[]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML
 /cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.
 95 to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, 
@@ -313,19 +314,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [16]
 File: FEMvsFourier.eps Graphic file (type eps)
  <FEMvsFourier.eps> Figure 8 [17]
-Overfull \hbox (0.80418pt too wide) in paragraph at lines 1050--1062
+Overfull \hbox (0.80418pt too wide) in paragraph at lines 1044--1056
 \OT1/cmr/m/n/10.95 guide. There are nu-mer-ous pos-si-ble bound-ary vari-a-tion
 s not com-mented
  []
 
 
-Overfull \hbox (1.22995pt too wide) in paragraph at lines 1050--1062
+Overfull \hbox (1.22995pt too wide) in paragraph at lines 1044--1056
 \OT1/cmr/m/n/10.95 Fourier se-ries. How-ever, the Build-ing Block method and we
 ll-established
  []
 
 
-Overfull \hbox (16.14249pt too wide) in paragraph at lines 1068--1072
+Overfull \hbox (16.14249pt too wide) in paragraph at lines 1062--1066
 []\OT1/cmr/m/n/10.95 Finally, it is pos-si-ble to ex-tend the tech-niques to co
 ver three-dimensional
  []
@@ -337,12 +338,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18]
 (./fourHarmScalWave.bbl References [19]) [20] (./fourHarmScalWave.aux) ) 
 Here is how much of TeX's memory you used:
- 2660 strings out of 493486
- 29555 string characters out of 3143548
+ 2658 strings out of 493486
+ 29570 string characters out of 3143548
  92700 words of memory out of 3000000
- 5890 multiletter control sequences out of 15000+200000
+ 5888 multiletter control sequences out of 15000+200000
  18902 words of font info for 71 fonts, out of 3000000 for 9000
  962 hyphenation exceptions out of 8191
  37i,18n,28p,448b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fourHarmScalWave.dvi (20 pages, 70988 bytes).
+Output written on fourHarmScalWave.dvi (20 pages, 70856 bytes).
