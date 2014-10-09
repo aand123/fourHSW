@@ -1,0 +1,262 @@
+\documentclass[a4paper,12pt]{article}%
+\usepackage{times}
+%\usepackage{cite,citesort}
+\usepackage{ifthen,calc}
+\usepackage{graphicx,latexsym,color,amsmath,amsfonts,amssymb,bm,eucal,mathrsfs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{amsthm}
+\usepackage{authblk}
+\usepackage{textcomp}%
+\setcounter{MaxMatrixCols}{30}
+%TCIDATA{OutputFilter=latex2.dll}
+%TCIDATA{Version=4.10.0.2359}
+%TCIDATA{LastRevised=Tuesday, April 01, 2014 09:23:42}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+\newtheorem{com}{Comment}
+\newtheorem{com1}{Comment 1}
+\newtheorem{com2}{Comment 2}
+\newtheorem{com3}{Comment 3}
+%\input{mymathwrite}
+\newtheorem{theorem}{Theorem}
+%\include{figuretable}
+%\include{mathinclude}
+\begin{document}
+\date{} \title{Replies to comments on\\Manuscript
+  ENGI--D--13--00133\\"Fourier Methods for Harmonic Scalar Waves in
+  General Waveguides"} \author{Anders Andersson, B\"orje Nilsson, and
+  Thomas Biro}
+\maketitle
+
+We would like to thank the two reviewers for many valuable comments
+that have helped us improving the paper. Based on these comments, the
+paper is completely rewritten. Special attention has been paid to
+motivating the method and the presentation and the discussion of the
+results. We agree with the opinion that the motivations for the method
+were absent and that the presentation of the results was poor in the
+previous version.
+\section*{Referee 1}
+
+
+{\it Referee's comment}\\
+The presentation of the math problem is poor. Eqs (2) and (3) seem to
+be an eigenvalue problem. But the author actually solved a boundary
+value problem. In the numerical example, the definition of boundary
+conditions is misleading. A source at left is mentioned in page 15,
+while in section 5.1, boundary conditions are defined on elements of
+conformal mappings. Please unify the definitions. Moreover, can these
+conditions be rewritten in the form of Eq. (3). If not, the original
+math problem has to be re-defined.\\ 
+{\it Authors' comments and actions}\\
+The former implicit definition of the source as an incident wave is
+now made explicit in section 2 making it clear that a scattering
+problem is formulated and later solved. Then it should not cause
+confusion in keeping the use of the conformal mapping in section 5.1
+to define the intervals where the non-zero admittance is applied.\\ 
+\newline
+{\it Referee's comment}\\
+Many different methods are mentioned in Introduction section. Please
+provide key references and a brief description of these methods.\\ 
+{\it Authors' action}\\
+The description of different methods in the introduction is expanded
+and key references are added.
+
+
+\section*{Referee 2}
+
+IMPORTANT POINTS: \textit{in italics text from the manuscript;}\\
+{\it Referee's comment}\\
+(1): Introduction: \textit{The problem appears in many applications,
+  in acoustics, optics, electrodynamics and quantum physics.} The
+authors should provide one reference for each
+theme mentioned. I would add water waves and the reference:\\
+Shi, A., Teng, M.H. \& Wu, T.Y., Propagation of solitary waves through
+significantly
+curved shallow water channels. J. Fluid. Mech., 362 (1998) 157176.\\
+Note this is nonlinear, fully time dependent problem.\\
+{\it Authors' action}\\
+References for the themes are mentioned and the new theme water waves
+is added together with the suggested reference.\\
+\newline
+{\it Referee's comment}\\
+(2): Preliminaries: \textit{The purpose of this article is exactly
+  this, to investigate and to show how Fourier methods can be used to
+  solve wave scattering problems in a waveguide with geometry and
+  boundary conditions that exceed the ordinary school book examples.}
+I believe there has to be a stronger motivation for this article. Note
+at the end, by the time we reach the Conclusions we have: We can only
+conclude that the combination of semi-analytic techniques evolved here
+is a well working alternative to different FEM- based numerical
+methods. As an interested reader I felt frustrated of not having any
+idea of which method is better: this or the FEM? Is the present one
+faster? Is there any comparison in terms of performance regarding
+computer time? If not, then why is this an ALTERNATIVE?! What is the
+benefit if a computer has to be used anyway with
+the FEM or this one?\\
+{\it Authors' comment}\\
+We agree that the motivations for the method was absent in the
+previous version of the paper.\\
+{\it Authors' actions}\\
+The introduction has been rewritten in order to present motivations of
+non-mathematical nature for the method. It is based on industrial
+requirements on wave simulation tools originating partially from the
+second author's previous industrial experience. In brief, more than
+one type of simulation tools is required.
+
+From these motivations the revised purpose for the paper is
+\emph{\ldots to demonstrate that semi-analytical methods based on
+  Fourier Analysis can solve time harmonic scattering problems in
+  waveguides with complicated geometry and general normal impedance or
+  admittance boundary conditions.}
+
+An extended summary of the paper is presented including a balanced
+conclusion. The importance of improved physical understanding is
+stressed. The revised conclusion and summary is: \emph{ In summary, we
+  conclude, based primarily on requirements from industry, that more
+  than one type of time harmonic waveguide simulation tool is
+  required. It is demonstrated that Fourier methods based on Fourier
+  Analysis provides one such tool. Its accuracy is checked against FE
+  Simulations for a general two-dimensional waveguide with normal
+  admittance boundary conditions at low and medium frequencies. For
+  the current investigation with non-zero normal boundary admittance,
+  the Fourier method, with its present implementation, is considerably
+  slower than the FE method that is more memory demanding. However,
+  for inverse engineering involving tuning of straight waveguides, the
+  Fourier method is an attractive alternative including time
+  aspects. The prime motivation for the Fourier method is its added
+  physical understanding primarily
+  at low frequencies.}\\
+\newline
+{\it Referee's comment}\\
+(3): Page 5: \textit{When performing these calculations, interactions
+  from the two ends of the block must be avoided, and hence, each
+  block is assumed to be an infinitely long waveguide (...).} How was
+this infinitely long dealt with in the simulations. Since one the
+authors has experience with the Schwarz-Christoffel Toolbox by
+Driscoll [1] this could have been tested and displayed here. One does
+not need to go too far, correct? How
+far?\\
+{\it Authors' comment}\\
+This text was intended to motivate why the BB method requires that
+both ends of each block is an infinitely long waveguide corresponding
+to anechoic terminations. The text was not intended to connect to the
+Schwarz-Christoffel Mapping.\\
+{\it Authors' action}\\
+The following text is added for clarification: \emph{It is assumed
+  that the scattering matrix for each block is determined for anechoic
+  terminations. Otherwise, the interactions due to the termination
+  should have been included in the Building Block Method making it
+  much more complicated. To this end each block is assumed to be an
+  infinitely long waveguide with parallel straight walls and constant
+  boundary conditions outside some bounded transition region, when
+  determining its scattering properties; in applications the straight
+  waveguide parts may be of shorther or even vanishing length.}\\
+In the end of Section 5.2, it is now clearly stated which intervals
+are used for the two blocks in the model example.\\
+\newline
+{\it Referee's comment}\\
+(4): Page 8: \textit{Both methods are built on the Schwarz-Christoffel
+  mapping, (...), mean- ing that no singularities are introduced by
+  the mapping.} This is along the lines of the
+item above. Note that in\\
+Nachbin, A. \& Sim\~oes, V.S. 2012 Solitary Waves in Open Channels
+with Abrupt
+Turns and Branching Points. J. Nonlin. Math. Phys., Vol. 19, Suppl. 1, 1240011,\\
+the same strategy was used for the singularities of the conformal
+mapping. Also note that the reflection-transmission problem at sharp
+turns was done in a very straightforward
+and accurate fashion for a nonlinear evolution problem, namely more complex.\\
+{\it Authors' action}\\
+The suggested reference is added.\\
+\newline
+{\it Referee's comment}\\
+(5): Page 11: \textit{It is worth noticing that the Riccati equations
+  (...) can for a countable set of k contain singularities (...), for
+  details and examples see for example [6].} The authors should
+mention in words what is this singularity problem. And why they resist
+a numerical solution .\\
+{\it Authors' comment and action}\\
+The wording "resist a numerical solution" was unfortunate. We have
+clarified the situation also mentioning that the stiffness was
+tractable with standard methods for our example.\\
+\newline
+{\it Referee's comment}\\
+(6): Page 16: Figure 6 is very bad. I can not read the numbers on
+either axis, nor know exactly what-is-what?! How many $\Phi_j$ are
+there? What do I conclude from this figure?\\
+{\it Authors' action}\\
+By using better type sizes on axes and in legends, many figures in
+Section 5.4 have been made more readable. The caption in Figure 6 now
+includes further relevant information and additional comments on the
+figure are included in the text.\\
+\newline
+{\it Referee's comment}\\
+(7): Page 16-17: Why $k$ = 15 was chosen, was a significant mode? As
+mentioned in the Conclusions why is this a low frequency mode? Why is
+figure 7 a good display of the results, or of the quality of the
+method? Why in the top of table 1 three $\Phi$'s are
+considered while at the bottom only 2? Why figure 8 has only $\Phi_0$?\\
+{\it Authors' comment and action}\\
+The model problem has been solved for frequencies in the interval
+$0<k\le20$. All statements, indicating the upper part of this interval
+as beeing ``low frequencies'' have been removed. Instead, we use
+terms like  ``low and medium'' frequencies.\\
+The former Figure 7 is removed from the article.\\
+Table 1 and its caption is slightly changed to increase its
+understandability. \\
+\newline
+{\it Referee's comment}\\
+(8): Page 18: \textit{Finally, it is possible to extend the techniques
+  to cover three-dimensional problems(...)} Nowhere 3D is done so it
+should not be mentioned at the start at page 3 and beyond. Also the
+doubly connected region in Figure 1 is misleading since holes are
+NOT considered. This should be removed.\\
+{\it Authors' comment and action}\\
+Three-dimensional problems are not any longer included in the initial
+formulation of the problem. However, a note on the possibilty to
+extend the methods to cover 3D is still present in the discussion
+section. A reference to an article which discusses the matter is
+included. \\
+\newline
+{\it Referee's comment}\\
+(9): Conclusion: At this point as a reader I am not sure I want to use
+the method proposed, which might be useful. It seems time
+consuming. Is it? It has restrictions.  So we go back to item 1 above
+and read \textit{The purpose of this article is exactly this, to
+  investigate and to show how Fourier methods can be used to solve
+  wave scattering problems in a waveguide with geometry and boundary
+  conditions that exceed the ordinary
+  school book examples.}\\
+\newline I would like to be convinced that a reader would want to use
+this method and why.
+Or else the paper should not be published.\\
+{\it Authors' action}\\
+See comments on point (2).\\
+\newline
+\textbf{Minor points:}\\
+{\it Referee's comment}\\
+(a): typo/Abstract: equtions\\
+{\it Authors' action}\\
+The abstract is rewritten.\\
+\newline
+{\it Referee's comment}\\
+(b) Intro: This sentence is quite long and confusing. \textit{For more
+  complex geome- tries or boundary conditions, purely numerical
+  methods or more precisely, finite element methods, have often during
+  recent years, due to evolution of both the methods and the
+  computers, become the natural choice for solving Helmholtz equation.}\\
+{\it Authors' action}\\
+The sentence is reformulated.\\
+\newline
+{\it Referee's comment}\\
+(c): \textit{We can only conclude that the combination of
+  semi-analytic techniques} \textbf{evolved}
+\textit{here is a well working alternative to different FEM-based numerical methods.}\\
+{\it Authors' action}\\
+The sentence is no longer present in the article.
+
+
+\end{document}
