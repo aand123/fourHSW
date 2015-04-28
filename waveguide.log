@@ -1,8 +1,8 @@
-This is MetaPost, version 1.504 (kpathsea version 6.1.0)  10 APR 2013 12:10
+This is MetaPost, version 1.803 (kpathsea version 6.1.1)  10 SEP 2014 15:44
 **waveguide.mp
 (mpost.mp (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.004)) (./waveguide.mp [1{pdftex.map}<c
-mmi12.pfb><cmmi8.pfb>] [2<cmmi12.pfb><cmr8.pfb>] [3<cmmi9.pfb><cmsy6.pfb><cmr6.
-pfb><cmr9.pfb>] [4<cmr10.pfb><cmr7.pfb>] )
+Preloading the plain mem file, version 1.004) ) (./waveguide.mp [1{psfonts.map}
+<cmmi12.pfb><cmmi8.pfb>] [2<cmmi12.pfb><cmr8.pfb>] [3<cmmi9.pfb><cmsy6.pfb><cmr
+6.pfb><cmr9.pfb>] [4<cmr10.pfb><cmr7.pfb>] )
 4 output files written: waveguide.1 .. waveguide.4
 

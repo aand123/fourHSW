@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.4.30)  8 SEP 2014 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=latex 2014.11.14)  23 APR 2015 08:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -96,10 +96,10 @@ Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -114,7 +114,7 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 Package graphics Info: Driver file: dvips.def on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+File: dvips.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
@@ -177,6 +177,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 \c@axiom=\count109
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
@@ -185,8 +189,8 @@ Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldletters=\mathgroup8
 \symboldsymbols=\mathgroup9
 \symboldwasy=\mathgroup10
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
-LaTeX Info: Redefining \bm on input line 204.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
 ) (./fourHarmScalWave.aux)
 \openout1 = `fourHarmScalWave.aux'.
 
@@ -203,149 +207,149 @@ LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 Abstract Keywords
-LaTeX Font Info:    Try loading font information for U+msa on input line 98.
+LaTeX Font Info:    Try loading font information for U+msa on input line 121.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 98.
+LaTeX Font Info:    Try loading font information for U+msb on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 98.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 121.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 98.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 121.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 98.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 121.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 113.
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 134.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 148.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
- [1] [2]
-File: waveguide-1.eps Graphic file (type eps)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+ [1]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<waveguide-1.eps> Figure 1
+ [2]
+[3]
+Overfull \hbox (1.5342pt too wide) in paragraph at lines 250--262
+\OT1/cmr/m/n/10.95 tance bound-ary con-di-tions. This gen-er-al-iza-tion of Fou
+rier meth-ods deals
+ []
+
+[4]
+File: waveguide-1.eps Graphic file (type eps)
+ <waveguide-1.eps> Figure 1
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 200.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 344.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 200.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 344.
 
-
-Overfull \hbox (13.65894pt too wide) in paragraph at lines 187--213
-\OT1/cmr/m/n/10.95 this waveg-uide schemat-i-cally. Us-ing the no-ta-tion $\U/m
-sb/m/n/10.95 R[] \OT1/cmr/m/n/10.95 = [] \OML/cmm/m/it/10.95 ;$
- []
-
-[3] [4]
-Overfull \hbox (35.76784pt too wide) in paragraph at lines 355--360
+[5] [6] [7]
+Overfull \hbox (48.23866pt too wide) in paragraph at lines 517--522
 \OT1/cmr/m/n/10.95 to trans-form the ge-om-e-try into a straight hor-i-zon-tal 
-chan-nel []
+waveg-uide []
  []
 
-[5]
 File: waveguide-3.eps Graphic file (type eps)
- <waveguide-3.eps> Figure 2 [6] [7] [8] [9] [10]
+<waveguide-3.eps> Figure 2 [8] [9] [10] [11] [12] [13] [14]
 File: BBMwg-1.eps Graphic file (type eps)
- <BBMwg-1.eps> Figure 3
-[11]
-Underfull \vbox (badness 6110) has occurred while \output is active []
+ <BBMwg-1.eps>
+Figure 3
+Underfull \vbox (badness 2393) has occurred while \output is active []
 
- [12]
-Overfull \hbox (5.28545pt too wide) in paragraph at lines 796--800
-\OT1/cmr/m/n/10.95 Consequently, at the bor-der be-tween $
-[]$ and $
-[]$, there are right-marching
- []
-
-
-Overfull \hbox (1.15572pt too wide) in paragraph at lines 801--805
+ [15]
+Overfull \hbox (7.62602pt too wide) in paragraph at lines 989--993
 []\OT1/cmr/m/n/10.95 Since there are no sources to the right of $
-[]$, $\OML/cmm/m/it/10.95 S[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
+[]$, $\OML/cmm/m/it/10.95 U[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/
 m/n/10.95 )\OML/cmm/m/it/10.95 C[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 R[]
-S\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.
-95 C[]$\OT1/cmr/m/n/10.95 ,
+U[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 `\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/1
+0.95 C[]$\OT1/cmr/m/n/10.95 ,
  []
 
 File: waveguide.eps Graphic file (type eps)
-<waveguide.eps> Figure 4 [13]
+<waveguide.eps> Figure 4 [16]
 File: sc.eps Graphic file (type eps)
  <sc.eps>
 File: bc.eps Graphic file (type eps)
- <bc.eps> Figure 5
-Overfull \hbox (31.44295pt too wide) in paragraph at lines 876--892
-\OT1/cmr/m/n/10.95 In (46[]), $\OML/cmm/m/it/10.95 A \OT1/cmr/m/n/10.95 = 0\OML
-/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 =^^Y$ \OT1/cmr/m/n/10.
-95 to get the width $0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 6$ to the right, 
-$\OML/cmm/b/it/10.95  \OT1/cmr/m/n/10.95 = (0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n
-/10.95 85\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cm
-r/m/n/10.95 15\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\O
-T1/cmr/m/n/10.95 15\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.9
-5 :\OT1/cmr/m/n/10.95 85)[]$
- []
-
-[14] [15]
+ <bc.eps> Figure 5 [17] [18]
 File: phin1a.eps Graphic file (type eps)
- <phin1a.eps>
+
+<phin1a.eps>
 File: phin2a.eps Graphic file (type eps)
  <phin2a.eps>
 File: phin3a.eps Graphic file (type eps)
  <phin3a.eps> Figure 6
-File: phitot3a.eps Graphic file (type eps)
- <phitot3a.eps>
-Figure 7 Table I
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ´ in font cmr10!
+File: ekvot.eps Graphic file (type eps)
+ <ekvot.eps> Figure 7
+Missing character: There is no â in font cmr8!
+Missing character: There is no ˆ in font cmr8!
+Missing character: There is no ’ in font cmr8!
+ [19]
+Table I
 File: FEMvsFourier.eps Graphic file (type eps)
- <FEMvsFourier.eps> Figure 8
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <FEMvsFourier.eps> Figure 8 [20]
+File: relerr123.eps Graphic file (type eps)
+ <relerr123.eps> Figure 9
+Underfull \vbox (badness 6063) has occurred while \output is active []
 
- [17]
-Overfull \hbox (0.80418pt too wide) in paragraph at lines 1046--1058
+ [21]
+[22]
+File: totalfaltFEMvsFourier2.eps Graphic file (type eps)
+ <totalfaltFEMvsFourier2.eps> Figure 10
+File: totalfaltFEM-Fourier.eps Graphic file (type eps)
+ <totalfaltFEM-Fourier.eps>
+Figure 11
+File: T_N.eps Graphic file (type eps)
+ <T_N.eps> Figure 12 [23]
+Overfull \hbox (0.80418pt too wide) in paragraph at lines 1533--1545
 \OT1/cmr/m/n/10.95 guide. There are nu-mer-ous pos-si-ble bound-ary vari-a-tion
 s not com-mented
  []
 
 
-Overfull \hbox (1.22995pt too wide) in paragraph at lines 1046--1058
+Overfull \hbox (1.22995pt too wide) in paragraph at lines 1533--1545
 \OT1/cmr/m/n/10.95 Fourier se-ries. How-ever, the Build-ing Block method and we
 ll-established
  []
 
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (16.14249pt too wide) in paragraph at lines 1064--1068
-[]\OT1/cmr/m/n/10.95 Finally, it is pos-si-ble to ex-tend the tech-niques to co
-ver three-dimensional
- []
+ [25]
+(./fourHarmScalWave.bbl References
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: T_N.eps Graphic file (type eps)
-<T_N.eps> Figure 9
-Underfull \vbox (badness 1389) has occurred while \output is active []
-
- [18]
-(./fourHarmScalWave.bbl References [19]) [20] (./fourHarmScalWave.aux) ) 
+ [27])
+[28] (./fourHarmScalWave.aux) ) 
 Here is how much of TeX's memory you used:
- 2663 strings out of 494466
- 29545 string characters out of 6166387
- 92893 words of memory out of 5000000
- 5831 multiletter control sequences out of 15000+600000
- 18902 words of font info for 71 fonts, out of 8000000 for 9000
+ 2769 strings out of 494450
+ 31055 string characters out of 6165677
+ 96402 words of memory out of 5000000
+ 5937 multiletter control sequences out of 15000+600000
+ 18201 words of font info for 69 fonts, out of 8000000 for 9000
  355 hyphenation exceptions out of 8191
- 39i,18n,30p,448b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,18n,30p,1005b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on fourHarmScalWave.dvi (20 pages, 70772 bytes).
+Output written on fourHarmScalWave.dvi (28 pages, 101372 bytes).

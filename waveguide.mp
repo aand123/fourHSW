@@ -10,26 +10,41 @@ etex
 u:=1cm;
 
 beginfig(1)
-  path ub,lb,isl,p,q;
+  path ub,lb,isl,p,q,a,b;
   pair d[];
   ub=(0,4u)--(4u,5.5u){dir20.556}...(5u,6u)...(6u,7u)...(7u,6.5u)...(8u,6u)...
   (9u,5u)...(10u,4.8u)...{dir(-86.1859)}(10.3u,3u)--(10.5u,0);
-  lb=(0,2u)--(4u,3.5u){dir20.556}...(6u,5u)...(8u,4u)...{dir(-86.1859)}(8.9u,3u)--(9.1u,0);
-  isl=(7u,6u){up}...(6.5u,6.2u){left}...(5.5u,6u){down}...(6.2u,5.8u){right}...cycle;
+  lb=(0,2u)--(4u,3.5u){dir20.556}...(6u,5u)...(8u,4u)...
+    {dir(-86.1859)}(8.9u,3u)--(9.1u,0);
+  isl=(7u,6u){up}...(6.5u,6.2u){left}...(5.5u,6u){down}...
+    (6.2u,5.8u){right}...cycle;
   z0 = point 0.8 of ub;
   d0=direction 0.8 of ub rotated -90;
   p=(z0--z0 shifted 10d0) cutafter lb;
   z1 = point 8.2 of ub;
   d1=direction 8.2 of ub rotated -90;
   q=(z1--z1 shifted 10d1) cutafter lb;
+
+  z2 = point 0 of ub;
+  d2=direction 0 of ub rotated -90;
+  a=(z2--z2 shifted 10d2) cutafter lb;
+  z3 = point 6 of lb;
+  d3=direction 6 of lb rotated 90;
+  b=(z3--z3 shifted 10d3) cutafter ub;
+
   draw ub;
   draw lb;
-  draw isl;  
+%  draw isl;  
   draw p dashed withdots;
   draw q dashed withdots;
+  pickup pencircle scaled 0.2;
+  drawdblarrow a;
+  drawdblarrow b;
   label(btex \large $V_L$ etex,(2.5u,4u));
   label(btex \large $V_i$ etex,(7.5u,5.5u));
   label(btex \large $V_R$ etex,(9.7u,1.5u));
+  label.llft(btex \large $a$ etex,point 0.5 of a);
+  label.bot(btex \large $b$ etex,point 0.5 of b);
 endfig;
 
 beginfig(2)

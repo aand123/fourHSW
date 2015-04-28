@@ -59,7 +59,7 @@
   \institute{School of Engineering, J\"onk\"oping University,
     J\"onk\"oping} \author{B\"orje
     \surname{Nilsson}\email{borje.nilsson@lnu.se}}
-  \institute{Department of Mathematics, Linn{\ae}us 
+  \institute{Department of Mathematics, Linn{\ae}us
     University, V\"axj\"o} \author{Thomas
     \surname{Biro}\email{thomas.biro@jth.hj.se}} \institute{School of
     Engineering, J\"onk\"oping University, J\"onk\"oping}
@@ -150,7 +150,7 @@ The Finite Element method (FE), was originally rarely used for
 waveguide problems. However, due to evolution of both methods and
 computers and of a big supply of commercial software, FE is today often
 the natural choice, even for these problems
-\cite{zienkiewicz+taylor+zhu:2008,Ihlenburg:1998}. 
+\cite{zienkiewicz+taylor+zhu:2008,Ihlenburg:1998}.
 
 Nevertheless, there is a long tradition in using analytic or
 semi-analytic methods for the solution of two-dimensional static
@@ -180,7 +180,12 @@ semi-analytical methods in particular.
 Parallel to this use of conformal mappings for internal propagation in
 waveguides, quasi-conformal mappings have been used for acoustic and
 electromagnetic cloaking in exterior domains
-\cite{pendryschurigsmith2006}.
+\cite{pendryschurigsmith2006}. Coordinate transformations that are not
+orthogonal but simple to generate have also been used for
+waveguides. Their common drawback with slow convergence for the
+solution, due to that homogeneous boundary conditions are transformed
+into inhomogeneous ones, has recently been removed by adding
+supplementary modes \cite{maurel+mercier+felix:2014}.
 
 Simulation tools for wave propagation have a wide range of
 applications with varying requirements from the end user. Examples
@@ -234,7 +239,7 @@ physical understanding. Even if it is exceptional, there are cases
 according to the example above when the Fourier method is the
 quickest one. Another case with an advantage for the Fourier
 method is when the domain is naturally described with basis functions
-having a non-discrete spectrum. One example is is the radiation from
+having a non-discrete spectrum. One example is the radiation from
 open pipes, which is conveniently solved with Wiener-Hopf methods, and
 is naturally linked to other scattering wave guide elements with the
 BB method. There are even cases when there is not yet a FE solution
@@ -245,7 +250,10 @@ for waves in moving fluids \cite{nilssonbrander1980a} or plasmas
 The purpose with the current paper is to demonstrate that Fourier
 methods can solve time harmonic scattering problems in waveguides with
 complicated geometry and general normal impedance or admittance
-boundary conditions. Only waveguides with smooth boundaries are
+boundary conditions. This generalization of Fourier methods deals with
+added complications compared to previous works
+\cite{maurel+mercier+felix:2014,Nilsson:2002}, which assume vanishing
+normal admittance. Only waveguides with smooth boundaries are
 considered. Additional well-known tools such as mode matching and
 Wiener--Hopf methods suitable for handling discontinuities, see for
 example \cite{jones1986}, are necessary to solve general waveguide
@@ -674,7 +682,7 @@ The differential equation~(\ref{eq:DE}) cannot be solved directly by
 numerical methods. However, there exist reformulations of
 (\ref{eq:DE}) that are numerically stable.
 %  for all but a countable set
-% of $k$, i.e. for $k\notin\{k_1,k_2,k_3,\dots\}$. 
+% of $k$, i.e. for $k\notin\{k_1,k_2,k_3,\dots\}$.
 In this section, we describe two such reformulations, built on two
 different partitions of the wave field $\vec\Phi$.
 
@@ -1015,8 +1023,8 @@ electromagnetic theory.
   \caption{The waveguide in the example.}
   \label{fig:exwg}
 \end{figure}
-To illustrate the techniques, we solve the scattering problem 
-%and determine the field 
+To illustrate the techniques, we solve the scattering problem
+%and determine the field
 in the waveguide shown in Fig.~\ref{fig:exwg}.
 The results, i.e., the total field in the waveguide given a known
 field entering from the left, as well as reflection and transmission
@@ -1064,7 +1072,7 @@ right, $\alpha_1=\alpha_4=0.85$ and $\alpha_2=\alpha_3=1.15$ to get
 inner angles of sizes $1.15\pi$ and $0.85\pi$, $b_1=b_4=c_1=c_4=1$ and
 $b_2=b_3=c_2=c_3=0.05$ to get the corners appropriately rounded, while
 $w_1=-1$, $w_2=-a$, $w_3=a$ and $w_4=1$, where $a=0.008740$ has been
-numerically 
+numerically
 determined to get the width $0.2$ to the left. Finally, $w_0$ is set
 to $2$ and $z_0$ to $1+0.2i$ to position the waveguide in the complex
 plane.
@@ -1103,7 +1111,7 @@ $\Omega_1$ and $-7\le u\le7$ in $\Omega_3$.  Hence, in the
 calculations, $\Omega_1=F_1([-5,5]+i[0,1])$ and
 $\Omega_3=F_2([-7,7]+i[0,1])$.
 
-\subsection{Determination of the field and of reflection and 
+\subsection{Determination of the field and of reflection and
 transmission matrices}
 \label{sec:determ-field-refl}
 
@@ -1211,11 +1219,11 @@ border between $\Omega_1$ and $\Omega_2$ and at the right end of
 $\Omega_3$. For the first case, $\vec\Phi$ using the DtN method is
 compared with $(C^++C^{-−})\vec\Phiin$. Likewise, for the second case
 $\vec\Phi$ with the DtN method is compared with $\Ttot\Phiin$.  Here,
-$C^\pm$ is determined using (47) and $\Ttot$ using (48). 
+$C^\pm$ is determined using (47) and $\Ttot$ using (48).
 
 The smooth curves visualized in Figure~\ref{fig:phi} indicates that
 for the three $k$ values presented there, the correspondence is
-good. Similar results are obtained all over the investigated interval 
+good. Similar results are obtained all over the investigated interval
 $0<k\le20$, no matter if only one or if several propagating modes are
 present at the two points in the waveguide. One example of a more
 detailed comparison is given in Table~\ref{tab:phires-bcend}, where
@@ -1257,7 +1265,7 @@ results for $k=15$ are compared.
       \Phi_1&0.4521-0.0448\i&0.4521-0.0449\i&3.744\cdot10^{-5}\\
       \Phi_2&-0.1873-0.2693\i&-0.1873-0.2693\i&7.971\cdot10^{-6}\\
       \Phi_3&0.0190+0.0203\i&0.0190+0.0203\i&7.730\cdot10^{-6}\\
-      \hline 
+      \hline
       &\multicolumn1c{\vec\Phi_{\Omega_3}(\text{end})}
       &\multicolumn1c{\Ttot\Phiin}
       &\\
@@ -1493,7 +1501,7 @@ problem is solved for $k=15$ using matrix sizes from $2\times2$ upto
 $50\times50$. The results are stable to three significant figures for
 matrix sizes $7\times7$ and upwards.
 
- 
+
 % In Figure~\ref{fig:phi}, %$\Re{\Phi_1}$, $\Re{\Phi_2}$ and
 % % $\Re{\Phi_3}$ are plotted for $k=5$, $k=10$ and $k=15$.
 % it should be noted that in $\Omega_1$, i.e. for $-4,\le u\le0$, the
@@ -1574,11 +1582,11 @@ these programs for increased speed.
 Note also that
 for the greater part of the investigated frequency interval $0<k\le20$
 in our model example, accurate results are achieved with matrix sizes
-smaller than $10\times10$. Indeed, 
+smaller than $10\times10$. Indeed,
 truncating the matrices so that they contain only one
 element gives fairly good results in intervals where only one
 mode is propagating. And when using $1\times1$ matrices, even
-unprofessional computer programs perform well. 
+unprofessional computer programs perform well.
 
 The most time-consuming part of the calculations is the determination
 of the matrices $A$ and $B^2$ in (\ref{eq:DE}) for a large set of
@@ -1629,7 +1637,7 @@ alternative including time aspects. The prime motivation for the
 Fourier method is its added physical understanding primarily
 at low frequencies.
 
-\bibliographystyle{klunum} 
+\bibliographystyle{klunum}
 \bibliography{referenser}
 
 \end{document}
