@@ -1,6 +1,7 @@
-\documentclass[numreferences]{kluwer}
-\let\iint\undefined
-\let\iiint\undefined
+\documentclass{svjour3}
+\smartqed
+%\let\iint\undefined
+%\let\iiint\undefined
 \usepackage{ifpdf}
 \ifpdf
   \usepackage[pdftex]{graphicx}
@@ -11,9 +12,8 @@
   \DeclareGraphicsExtensions{.mps,.eps}%
   \DeclareGraphicsRule{*}{eps}{*}{}
 \fi
-
-\usepackage{amsmath,url}
-\newtheorem{axiom}{Axiom}
+\usepackage{mathptmx,amsmath,amssymb,url}
+%\newtheorem{axiom}{Axiom}
 
 \usepackage{bm}
 
@@ -49,59 +49,58 @@
 \newcommand{\Ttot}{T^+_{\text{tot}}}
 \newcommand{\Rtot}{R^+_{\text{tot}}}
 
-\begin{document}
-\begin{opening}
-  \title{Fourier Methods for Harmonic Scalar Waves in General
-    Waveguides}
+\journalname{Journal of Engineering Mathematics}
 
-  \author{Anders
-    \surname{Andersson}\email{anders.andersson@jth.hj.se}}
-  \institute{School of Engineering, J\"onk\"oping University,
-    J\"onk\"oping} \author{B\"orje
-    \surname{Nilsson}\email{borje.nilsson@lnu.se}}
-  \institute{Department of Mathematics, Linn{\ae}us
-    University, V\"axj\"o} \author{Thomas
-    \surname{Biro}\email{thomas.biro@jth.hj.se}} \institute{School of
-    Engineering, J\"onk\"oping University, J\"onk\"oping}
-  \runningtitle{Fourier Methods for Harmonic Scalar Waves in General
+\begin{document}
+\title{Fourier Methods for Harmonic Scalar Waves in General
     Waveguides}
-  \runningauthor{Andersson, Nilsson, Biro}
-  \begin{abstract}
-    A set of semi-analytical techniques based on Fourier analysis is
-    used to solve wave scattering problems in variously shaped
-    waveguides with varying normal admittance boundary conditions. Key
-    components are newly developed conformal mapping methods, wave
-    splitting, Fourier series expansions in eigen-functions to
-    non-normal operators, the building block method or the cascade
-    technique, Dirichlet-to-Neumann operators, and reformulation in
-    terms of stable differential equations for reflection and
-    transmission matrices. For an example the results show good
-    correspondence with a finite element method solution to the same
-    problem in the low and medium frequency domain. The Fourier method
-    complements finite element analysis as a waveguide simulation
-    tool.  For inverse engineering involving tuning of straight
-    waveguide parts joining complicated waveguide elements, the
-    Fourier method is an attractive alternative including time
-    aspects. The prime motivation for the Fourier method is its added
-    physical understanding primarily at low frequencies.
-    % Wave scattering problems in variously shaped waveguides with
-    % varying boundary conditions is studied with the purpose to
-    % investigate what can be done with classical Fourier methods. A set
-    % of techniques, including newly developed conformal mapping
-    % methods, wave splitting, Fourier series development where
-    % non-normal operators have non-real eigenvalues, the building block
-    % method, Dirichlet-to-Neumann operators, and reformulation of the
-    % differential equations in terms of equations for reflection and
-    % transmission matrices, are used to solve the problem. In an
-    % example, the results are, with good correspondence
-    % in the low frequency domain, compared with a finite element method
-    % solution
-    % to the same problem.
-  \end{abstract}
-  \keywords{Harmonic scalar waves, Normal surface admittance, Fourier
-    series, Building Block Method, Conformal mappings,
-    Dirichlet-to-Neumann operators}
-\end{opening}
+\author{Anders Andersson\and B\"orje Nilsson\and Thomas Biro}
+\institute{A. Andersson \at
+  School of Engineering,
+  J\"onk\"oping University,
+  J\"onk\"oping\\
+  \email{anders.andersson@jth.hj.se}
+  \and
+  B. Nilsson \at
+  Department of Mathematics, 
+  Linn{\ae}us  University, 
+  V\"axj\"o\\  
+  \email{borje.nilsson@lnu.se}
+  \and
+  T. Biro \at
+  School of Engineering,
+  J\"onk\"oping University,
+  J\"onk\"oping\\
+  \email{thomas.biro@jth.hj.se}
+}
+
+\titlerunning{Fourier Methods for Harmonic Scalar Waves in General
+  Waveguides}
+\authorrunning{Andersson, Nilsson, Biro}
+\date{Recieved:/Accepted:}
+\maketitle
+\begin{abstract}
+  A set of semi-analytical techniques based on Fourier analysis is
+  used to solve wave scattering problems in variously shaped
+  waveguides with varying normal admittance boundary conditions. Key
+  components are newly developed conformal mapping methods, wave
+  splitting, Fourier series expansions in eigen-functions to
+  non-normal operators, the building block method or the cascade
+  technique, Dirichlet-to-Neumann operators, and reformulation in
+  terms of stable differential equations for reflection and
+  transmission matrices. For an example the results show good
+  correspondence with a finite element method solution to the same
+  problem in the low and medium frequency domain. The Fourier method
+  complements finite element analysis as a waveguide simulation tool.
+  For inverse engineering involving tuning of straight waveguide parts
+  joining complicated waveguide elements, the Fourier method is an
+  attractive alternative including time aspects. The prime motivation
+  for the Fourier method is its added physical understanding primarily
+  at low frequencies.
+\end{abstract}
+\keywords{Harmonic scalar waves, Normal surface admittance, Fourier
+  series, Building Block Method, Conformal mappings,
+  Dirichlet-to-Neumann operators}
 
 \section{Introduction}
 \label{sec:intro}
@@ -315,7 +314,7 @@ boundary condition%
   \dfrac{\partial \phi}{\partial n}=\text{i}k\beta \phi,
   \text{ }\bm{r}\in\partial V\text{,} \label{102}%
 \end{equation}
-on the boundary $\partial V$. Here, $k\in\mathbb{R}^{+}$ is the wave
+on the boundary $\partial V$. Here, $k\in\R^{+}$ is the wave
 number, $\beta\in\mathbb{C}$, $\Re\beta\geq0$ is the (normalised)
 normal surface admittance and $\widehat{\bm{n}}$ is the outward
 pointing normal to $\partial V$. Special cases of the boundary
@@ -334,7 +333,7 @@ negative with $V_{\text{L}}.$ The transverse coordinate in the
 straight waveguides $V_{\text{L}}$ and $V_{\text{R}}$, orthogonal to
 $u$, is called $v$.  Fig.  \ref{fig:wg1} depicts this waveguide
 schematically.%
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[scale=0.8]{waveguide-1}
   \caption{Waveguide $V=V_L\cup V_i\cup V_R$ consisting of straight
@@ -389,8 +388,8 @@ $A_{n}^{\pm}$ is a constant modal amplitude and
 \end{equation}
 is the axial wavenumber.
 
-If $\phi_{+}\,\nequiv\, 0,$ we say that there is a source at
-$u=-\infty,$ and if $\phi_{-}\,\nequiv\, 0,$ there is a source at
+If $\phi_{+}\,\not\equiv\, 0,$ we say that there is a source at
+$u=-\infty,$ and if $\phi_{-}\,\not\equiv\, 0,$ there is a source at
 $u=+\infty.$ It makes it natural to denote $\phi_{-}$ or
 $\phi_{n}^{-}$ as left-going and $\phi_{+}$ or $\phi_{n}^{+}$ as
 right-going.
@@ -533,7 +532,7 @@ still a normal admittance boundary condition with an admittance that is
 modified by the scale factor $\abs{F'(u+i)}$. Generally, the new
 admittance is varying for constant $\beta$ but this variation can be
 ignored asymptotically at both ends of the waveguide.
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[scale=1]{waveguide-3}
   \caption{A single block in the $z=x+\i y$ plane and the $w=u+\i v$
@@ -931,7 +930,7 @@ the determination of reflection and transmission matrices for a
 combination of several sections (``blocks'') of the waveguide, for
 which these matrices are known.
 
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\textwidth]{BBMwg-1}
   \caption{Waveguide divided in blocks. $\Omega_2$ is straight and
@@ -1017,7 +1016,7 @@ electromagnetic theory.
 
 \section{A numerical example}
 \label{sec:numerical-example}
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\textwidth]{waveguide.eps}
   \caption{The waveguide in the example.}
@@ -1076,7 +1075,7 @@ numerically
 determined to get the width $0.2$ to the left. Finally, $w_0$ is set
 to $2$ and $z_0$ to $1+0.2i$ to position the waveguide in the complex
 plane.
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=0.45\textwidth]{sc}
   \includegraphics[width=0.45\textwidth]{bc}
@@ -1156,7 +1155,7 @@ waveguide modifications, where also the second mode is visible. For
 higher frequencies, the situation is more complicated with more
 propagating modes.
 
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{phin1a}
   \includegraphics[width=\linewidth]{phin2a}
@@ -1199,7 +1198,7 @@ frequencies, at least 25 \% in the low frequency end stabilizing at
 about 90 \% for $k$ larger than 8. This corresponds to a total
 attenuation of about 1 dB and 10 dB, respectively.
 
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=0.9\linewidth]{ekvot}
   \caption{Power ratio $\mathcal P$ as function of $k$}
@@ -1228,31 +1227,6 @@ $0<k\le20$, no matter if only one or if several propagating modes are
 present at the two points in the waveguide. One example of a more
 detailed comparison is given in Table~\ref{tab:phires-bcend}, where
 results for $k=15$ are compared.
-
-% In this section, the RT and DtN methods are compared. The DtN method
-% described in Section~\ref{sec:DtN} is used in $\Omega_1$ and
-% $\Omega_3$, whereas the reflection and transmission matrices from
-% the RT method described in Section~\ref{sec:RT} are used to
-% determine the field in $\Omega_2$. Both methods are expected to give
-% identical results at the border between $\Omega_1$ and $\Omega_2$.
-% Likewise, the field $\vec\Phi$ at the end of $\Omega_3$, determined
-% by the DtN method, should be
-
-
-% In different parts of $\Omega$, $\vec\Phi$ has been calculated using
-% different methods. In $\Omega_1$, $\vec\Phi$ was calculated using
-% the DtN method described in Section~\ref{sec:DtN}, while in
-% $\Omega_2$, $\vec\Phi$ is calculated using (\ref{eq:midfield}) and
-% (\ref{eq:ABRtotTtot}). Hence, in $\Omega_2$, $\vec\Phi$ depends on
-% the reflection and transmission operators found by the RT method
-% described in Section~\ref{sec:RT}.  It is therefore interesting to
-% compare $\vec\Phi$ in the right end of $\Omega_1$ with $\vec\Phi$ in
-% the left end of $\Omega_2$, i.e. with $(C^++C^-)\Phiin$. Likewise,
-% it is interesting to compare $\vec\Phi$ at the end of $\Omega_3$,
-% calculated with the DtN method, with $\Ttot\Phiin$, where $\Ttot$ is
-% determined using the RT and Building block methods.  These
-% comparisons are given in Table \ref{tab:phires-bcend}, and show that
-% the correspondence between the two methods is good.
 
 \begin{table}[ht]
   \begin{equation*}
@@ -1283,7 +1257,7 @@ results for $k=15$ are compared.
     different methods. All calculations are made for $k=15$ ($ka=3$)
     and with $10\times10$ matrices.}
   \label{tab:phires-bcend}
-  \tabwidth{\textwidth}
+  %\tabwidth{\textwidth}
 \end{table}
 
 \subsubsection{Comparison with a FE solution}
@@ -1299,7 +1273,7 @@ the waveguide. In Figure~\ref{fig:FEMvsFourier}, the FE calculated
 $\Phi_0$ on the boundary at the end of the waveguide is compared with
 $\Phi_0$ calculated with Fourier methods using three different matrix
 sizes.
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=0.9\linewidth]{FEMvsFourier}
   \caption{$\abs{\Phi_{0}}$ at the end of $\Omega_3$ calculated for
@@ -1316,7 +1290,7 @@ examined further in Figure~\ref{fig:relerr123} where a relative
 difference between the FE solution and Fourier solutions using
 $1\times1$, $2\times2$ and $3\times3$ matrices are shown.
 
-\begin{figure}[htb]
+\begin{figure}[b]
   \centering
   \includegraphics[width=0.9\linewidth]{relerr123}
   \caption{$\abs{\abs{\Phi_{\text{Four}}/\Phi_{\text{FEM}}}-1}$, where
@@ -1361,13 +1335,8 @@ at the boundary. Therefore, the interference is large at the chosen
 point. At points inside the waveguide, the differences between the two
 methods are much smaller.
 
-% The interference is large at the chosen point at the hard boundary
-% of the waveguide, having a Neumann boundary condition, due to that
-% the field is at maximum there. At points inside the waveguide the
-% differences between the two methods are much smaller as has been
-% demonstrated with simulations.
 
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[width=0.9\linewidth]{totalfaltFEMvsFourier2}
   \caption{The total field $\abs\phi$ in the point $(7.0671,-1.5855)$
@@ -1376,7 +1345,8 @@ methods are much smaller.
     software.}
   \label{fig:FEMvsFour2}
 \end{figure}
-\begin{figure}[htb]
+
+\begin{figure}[b]
   \centering
   \includegraphics[width=0.9\linewidth]{totalfaltFEM-Fourier}
   \caption{The absolute difference
@@ -1386,107 +1356,8 @@ methods are much smaller.
     with Fourier methods and FE software respectively.}
   \label{fig:totalfaltFEMFour}
 \end{figure}
-% As a comparison, we have applied a commercial FE solver (COMSOL
-% Multiphysics) to our model problem. In
-% Figures~\ref{fig:FEMvsFourier}--\ref{fig:totalfaltFEMFour}, FEM
-% solutions for $0<k\le20$ are compared with the corresponding Fourier
-% method solutions. From the FE solution, it is easy to extract the
-% base mode $\Phi_0$ by calculating the average field over a
-% cross-section of the channel. In Figure~\ref{fig:FEMvsFourier}, the
-% FE calculated $\Phi_0$ at the end of the waveguide is compared to
-% $\Phi_0$ calculated with Fourier methods using three different
-% matrix sizes.
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.9\linewidth]{FEMvsFourier}
-%   \caption{$\abs{\Phi_{0}}$ at the end of $\Omega_3$ calculated for
-%   $k=0.05,0.1,\dots,20$ with the Finite Element Method and with the
-%   Fourier methods described in the article with $N=1,2$ and $10$,
-%   i.e., using $1\times1$, $2\times2$ and $10\times10$ matrices in
-%   the calculations.}
-%   \label{fig:FEMvsFourier}
-% \end{figure}
 
-% For $k>\pi/(0.2\sqrt2)\approx11.1$, i.e. when a second mode is
-% propagating without attenuation in the end of the waveguide, the
-% differences are significantly greater, see
-% Figures~\ref{fig:FEMvsFour2} and \ref{fig:totalfaltFEMFour}. Note
-% however that for $k$ just above the frequency $11.1$, there are
-% significant interference effects between the two propagating
-% modes. For these frequencies, the problem is ill-posed since the
-% interference is very sensitive to small changes in not only $k$ but
-% also in geometry and boundary conditions. The discrepancies shown in
-% Figures~\ref{fig:FEMvsFour2} and \ref{fig:totalfaltFEMFour} are
-% therefore not surprising. Note also that the differences tend to
-% vanish for higher frequencies.
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.9\linewidth]{totalfaltFEMvsFourier2}
-%   \caption{The total field $\abs p$ in the point $(7.0671,-1.5855)$
-%   (the left point at the end of the waveguide) for $0<k<20$
-%   calculated with Fourier methods using $N=10$ and with FE
-%   software.}
-%   \label{fig:FEMvsFour2}
-% \end{figure}
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.9\linewidth]{totalfaltFEM-Fourier}
-%   \caption{The absolute difference
-%   $\abs{\abs{p_{\text{Four}}}-\abs{p_{\text{FE}}}}$ for $0<k<20$ in
-%   the point $(7.0671,-1.5855)$, where $p_{\text{Four}}$ and
-%   $p_{\text{FE}}$ are $p$ calculated with Fourier methods and FE
-%   software respectively.}
-%   \label{fig:totalfaltFEMFour}
-% \end{figure}
-
-% In the figure, Fourier solutions calculated with $1\times1$,
-% $2\times2$ and $10\times10$ matrices are shown.  As is seen, when
-% using $10\times10$ matrices, the correspondence between the two
-% methods is good. The differences between the methods in the
-% calculated $k$ interval are all less than $4\cdot10^{-3}$.  An
-% indication of the relative error, calculated from the quotient of
-% the two results, is given in Figure~\ref{fig:relerr10}.
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.9\linewidth]{relerr10}
-%   \caption{$\abs{\abs{\Phi_{\text{FEM}}/\Phi_{\text{Four}}}-1}$,
-%   where $\Phi_{\text{FEM}}$ and $\Phi_{\text{Four}}$ are $\Phi_0$ at
-%   the end of $\Omega_3$ calculated for $0<k\le20$ with Finite
-%   element and Fourier methods respectively.}
-%   \label{fig:relerr10}
-% \end{figure}
-
-% With the exception of a few $k$ values, the methods differ with less
-% than $0.5\%$ for $k<15$ ($ka<3)$ with a tendency to greater
-% discrepancies for $k>15$.
-
-% For low frequencies, Figure~\ref{fig:FEMvsFourier} indicates that
-% accurate results can be achieved with small matrices. The situation is
-% examined further in Figure~\ref{fig:relerr123} where a relative
-% difference between the FE solution and Fourier solutions using
-% $1\times1$, $2\times2$ and $3\times3$ matrices are shown.
-
-% \begin{figure}[htb]
-%   \centering
-%   \includegraphics[width=0.9\linewidth]{relerr123}
-%   \caption{$\abs{\abs{\Phi_{\text{Four}}/\Phi_{\text{FEM}}}-1}$, where
-%     $\Phi_{\text{FEM}}$ and $\Phi_{\text{Four}}$ are $\Phi_0$ at the
-%     end of $\Omega_3$ calculated for $0<k\le5$ with FE software and
-%     Fourier methods respectively. The calculations of
-%     $\Phi_{\text{Four}}$ are done with $N=3,2$ and $1$, i.e., with
-%     $3\times3$, $2\times2$ and $1\times1$ matrices.}
-%   \label{fig:relerr123}
-% \end{figure}
-
-% The width of the waveguide is $0.6$ in the central part, which means
-% that there, a second mode $\Phi_1$ is propagating (without
-% attenuation) for $k>\pi/0.6\approx5.24$. Clearly, calculations with
-% $1\times1$ matrices can not give accurate results for $k>\pi/0.6$.
-% However, it is interesting to note that even when using only one
-% matrix element in the calculations, fairly good results are achieved
-% for frequencies with not more than one propagating mode.
-
-\begin{figure}[htb]
+\begin{figure}[t]
   \centering
   \includegraphics[scale=0.45]{T_N}
   \caption{$\Phi_0$ and $\Phi_1$ at the end of the waveguide
@@ -1500,31 +1371,6 @@ the required matrix size is given in Figure~\ref{fig:T_N}, where the
 problem is solved for $k=15$ using matrix sizes from $2\times2$ upto
 $50\times50$. The results are stable to three significant figures for
 matrix sizes $7\times7$ and upwards.
-
-
-% In Figure~\ref{fig:phi}, %$\Re{\Phi_1}$, $\Re{\Phi_2}$ and
-% % $\Re{\Phi_3}$ are plotted for $k=5$, $k=10$ and $k=15$.
-% it should be noted that in $\Omega_1$, i.e. for $-4,\le u\le0$, the
-% field is calculated with the DtN method, while in $\Omega_2$
-% ($0<u<1.44$), the field is calculated with the RT method. The
-% correspondence is good, as is examined in detail in
-% Table~\ref{tab:phires-bcend}.
-
-% In Figure~\ref{fig:phitot3a}, a contour plot of $\Re p(x,y)$ is
-% shown for $k=15$.
-
-% \begin{figure}[ht]
-%   \centering
-%   \includegraphics[width=0.9\linewidth]{phitot3a}
-%   \caption{$\Re p(x,y)$ plotted for $k=15$.}
-%   \label{fig:phitot3a}
-% \end{figure}
-
-
-% \subsection{A FEM solution to the problem}
-% \label{sec:fem-solution-problem}
-
-
 
 
 \section{Discussion and conclusion}
@@ -1547,11 +1393,6 @@ Another simplification in this article is the assumption of a Neumann
 boundary condition on one of the boundaries. An iterated use of the
 Building Block method and lengthways partitions of the waveguide can
 handle two-dimensional waveguides with non-hard walls on both sides.
-
-% Finally, it is possible to extend the techniques to cover
-% three-dimensional problems, at least when variations in the geometry
-% take place in at most two dimensions at the time. We refer to the
-% discussion in \cite{Nilsson:2002}.
 
 As a reference and comparison, the problem in the example has been
 solved using commercial software for the finite element method.
@@ -1637,8 +1478,191 @@ alternative including time aspects. The prime motivation for the
 Fourier method is its added physical understanding primarily
 at low frequencies.
 
-\bibliographystyle{klunum}
-\bibliography{referenser}
+% \bibliographystyle{myspmpsci}
+% \bibliography{referenser}
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{jones1986}
+Jones, D.S. (1986) Acoustic and electromagnetic waves.
+\newblock Oxford {U}niversity press, Oxford
+
+\bibitem{jin:2010}
+Jin, J.M. (2010) Theory and computation of electromagnetic fields.
+\newblock Wiley-IEEE Press, Hoboken, NJ, USA
+
+\bibitem{londegan+carini+murdock:1999}
+Londegan, J.T., Carini, J.P., Murdock, D.P. (1999) Binding and scattering in
+  two-dimensional systems - Applications to quantum wires, waveguides and
+  photonic crystals.
+\newblock Lecture notes in physics. Springer, Berlin, Germany
+
+\bibitem{abbott:1956}
+Abbott, M.R. (1956) A theory of the propagation of bores in channels and
+  rivers.
+\newblock Proc. Camb. Phil. Soc. \textbf{52}: 344--362
+
+\bibitem{aimen+michelle+theodore:1998}
+Aimen, S., Michelle, T., Theodore, W. (1998) Propagation of solitary waves
+  through significantly curved shallow water channels.
+\newblock J. Fluid Mech. \textbf{362}: 157--176
+
+\bibitem{mittralee1971}
+Mittra, R., Lee, S.W. (1971) Analytical techniques in the theory of guided
+  waves.
+\newblock McMillan, New York, NY, USA
+
+\bibitem{nilssonbrander1981b}
+Nilsson, B., Brander, O. (1981) The propagation of sound in cylindrical ducts
+  with mean flow and bulk reacting lining - {IV}. {S}everal interacting
+  discontinuities.
+\newblock IMA J. Appl. Math \textbf{27}: 263--289
+
+\bibitem{bironilsson2005}
+Biro, T., Nilsson, B. (2005) Multiple scattering of microwaves from septum
+  discontinuities in a circular bend.
+\newblock Wave Motion \textbf{42}: 109--125
+
+\bibitem{buyukaksoycinar2005}
+B\"uy\"ukaksoy, A., Cinar, G. (2005) Solution of a matrix wiener–hopf
+  equation connected with the plane wave diffaction by an impedance loaded
+  parallel plate waveguide.
+\newblock Mathematical Methods in the applied Sciences \textbf{28}: 1633--1645
+
+\bibitem{zienkiewicz+taylor+zhu:2008}
+Zienkiewicz, O.C., Taylor, R.L., Zhu, J.Z. (2013) The Finite Element Method:
+  Its Basis and FundamentalsAnalytical techniques in the theory of guided
+  waves.
+\newblock Butterworth--Heinemann, Oxford, UK
+
+\bibitem{Ihlenburg:1998}
+Ihlenburg, F. (1998) Finite element analysis of acoustic scattering,
+  \emph{Applied Mathematical Sciences}, vol. 132.
+\newblock Springer-Verlag, New York.
+\newblock \doi{10.1007/b98828}
+
+\bibitem{muskhelishvili:1962}
+Muskhelishvili, N.I. (1962,1975) Some basic problems of the mathematical
+  theory of elasticity : {F}undamental equations, plane theory of elasticity,
+  torsion and bending.
+\newblock Noordhoff, Leyden
+
+\bibitem{ives+liutermoza:1977}
+Ives, D., Liutermoza, J. (1977) Analysis of transonic cascade flow using
+  conformal mapping and relaxation techniques.
+\newblock AIAA Journal \textbf{15}(5): 647--652
+
+\bibitem{sctoolbox}
+Driscoll, T.A. (1994-2003) Schwarz--{C}hristoffel {t}oolbox for {M}atlab.
+\newblock Available from \url{http://www.math.udel.edu/~driscoll/SC/}
+
+
+\bibitem{andersson-outpol:2008}
+Andersson, A. (2008) Schwarz--{C}hristoffel mappings for nonpolygonal regions.
+\newblock SIAM J. Sci. Comput. \textbf{31}(1): 94--111
+
+\bibitem{andersson-acf:2009}
+Andersson, A. (2009) Modified {S}chwarz-{C}hristoffel mappings using
+  approximate curve factors.
+\newblock J. Comp. Appl. Math. \textbf{233}(4): 1117 -- 1127
+
+\bibitem{Andersson:2006}
+Andersson, A. (2006) Using a zipper algorithm to find a conformal map for a channel with smooth boundary.
+\newblock In: AIP Conference Proceedings: 2nd Conference on Mathematical
+  Modeling of Wave Phenomena, vol. 834, pp. 3--12. AIP 
+
+\bibitem{Andersson-Nilsson:2009}
+Andersson, A., Nilsson, B. (2009) Electro-magnetic scattering in variously shaped waveguides with an impedance condition.
+\newblock In: AIP Conference Proceedings: 3rd Conference on Mathematical
+  Modeling of Wave Phenomena, vol. 1106, pp. 36--45. AIP
+
+\bibitem{nachbin+daSilvaSimoes:2012}
+Nachbin, A., da~Silva Sim\~oes, V. (2012) Solitary waves in open channels with
+  abrupt turns and branching points.
+\newblock Journal of Nonlinear mathematical Physics \textbf{19}: 116--136
+
+\bibitem{Fishman:1998}
+Fishman, L., Gautesen, A.K., Sun, Z. (1998) An exact, well-posed, one-way
+  reformulation of the {H}elmholtz equation with application to direct and
+  inverse wave propagation modeling.
+\newblock In: New Perspectives on Problems in Classical and Quantum Physics: A
+  Festschrift in Honor of Herbert \"Uberall, pp. 75--97. CRC Press
+
+\bibitem{Nilsson:2002}
+Nilsson, B. (2002) Acoustic transmission in curved ducts with various
+  cross-sections.
+\newblock Proc. R. Soc. Lond. A \textbf{458}: 1555--1574
+
+\bibitem{pendryschurigsmith2006}
+Pendry, J.B., Schurig, D., Smith, D.R. (2006) Controlling electromagnetic
+  fields.
+\newblock Science \textbf{312}: 1780--1782
+
+\bibitem{maurel+mercier+felix:2014}
+Maurel, A., Mercier, J.F., F\'elix, S. (2014) Propagation in waveguides with
+  varying cross-section and curvature: A new light on the role of supplementary
+  modes in multimodal methods.
+\newblock Proc. R. Soc. A \textbf{470}: 20130,743
+
+\bibitem{nilssonbrander1980a}
+Nilsson, B., Brander, O. (1980) The propagation of sound in cylindrical ducts
+  with mean flow and bulk reacting lining - {I}. {M}odes in an infinite duct.
+\newblock J. Inst. Maths. Applics \textbf{26}: 269--298
+
+\bibitem{briggs1964}
+Briggs, R.J. (1964) Electron-stream interaction with plasmas.
+\newblock No.~29 in Res. Monogr. M.I.T. Press, Cambridge, Mass.
+
+\bibitem{Schwartz:1954}
+Schwartz, J. (1954) Perturbations of spectral operators, and applications,
+  {I}. bounded perturbations ({L}emma 14).
+\newblock Pacific J. of Math. \textbf{4}: 415--458
+
+\bibitem{Bari:1944}
+Bari, N. (1944) Sur les syst${\rm \grave{e}}$mes complets de functions
+  orthogonales.
+\newblock Mat. {S}bornik \textbf{14}(56): 51--108
+
+\bibitem{Christensson:2003}
+Christensson, O. (2003) An {I}ntroduction to {F}rames and {R}iesz {B}ases.
+\newblock Birkh\"{a}user, Boston
+
+\bibitem{Lu:1999}
+Lu, Y.Y. (1999) Exact one-way methods for acoustic waveguides.
+\newblock Math. Comput. Simulation \textbf{50}(5-6): 377--391
+
+\bibitem{lu+mclaughlin:2000}
+Lu, Y.Y., Mclaughlin, J.R. (2000) Propagation in helmholtz waveguides using dtn and ntd maps.
+\newblock Report, City University of Hong Kong
+
+\bibitem{Li-Kahan:2012}
+Li, R.C., Kahan, W. (2012) A family of anadromic numerical methods for matrix
+  {R}iccati differential equations.
+\newblock Math. Comp. \textbf{81}(277): 233--265.
+\newblock \doi{10.1090/S0025-5718-2011-02498-1}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1090/S0025-5718-2011-02498-1}
+
+\bibitem{kerns1949}
+Kerns, D.M. (1949) Basis of the application of network equations to waveguide
+  problems.
+\newblock J. Res. natn. Bur. Stand. \textbf{42}: 515--540
+
+\bibitem{AndriulliCoolsOlyslagerMichielssen2008}
+Andriulli, F.P., Cools, K., Olyslager, F., Michielssen, E. (2008) The dot-trick
+  tdefie: A dc stable integral equation for analyzing transient scattering from
+  pec bodies.
+\newblock In: IEEE Int. AP-S Symp., vol.~4
+
+\bibitem{chew2014}
+Chew, W.C. (2014) Vector potential electromagnetic theory with generalized gauge for inhomogeneous anisotropic media.
+\newblock arXiv:physics-ph/1406.4780
+
+\end{thebibliography}
 
 \end{document}
 

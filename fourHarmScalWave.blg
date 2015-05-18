@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: fourHarmScalWave.aux
-The style file: klunum.bst
+The style file: myspmpsci.bst
 Database file #1: referenser.bib
 You've used 34 entries,
-            2380 wiz_defined-function locations,
-            728 strings with 9089 characters,
-and the built_in function-call counts, 12310 in all, are:
-= -- 1152
-> -- 439
-< -- 35
-+ -- 134
-- -- 118
-* -- 1142
-:= -- 2078
-add.period$ -- 71
+            2942 wiz_defined-function locations,
+            832 strings with 10447 characters,
+and the built_in function-call counts, 21098 in all, are:
+= -- 2583
+> -- 211
+< -- 8
++ -- 220
+- -- 59
+* -- 740
+:= -- 1666
+add.period$ -- 42
 call.type$ -- 34
-change.case$ -- 195
-chr.to.int$ -- 34
+change.case$ -- 35
+chr.to.int$ -- 0
 cite$ -- 34
-duplicate$ -- 506
-empty$ -- 968
-format.name$ -- 172
-if$ -- 2457
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 140
-num.names$ -- 102
-pop$ -- 176
+duplicate$ -- 2686
+empty$ -- 1510
+format.name$ -- 76
+if$ -- 4546
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 315
+newline$ -- 147
+num.names$ -- 34
+pop$ -- 1030
 preamble$ -- 1
-purify$ -- 229
+purify$ -- 0
 quote$ -- 0
-skip$ -- 370
+skip$ -- 1315
 stack$ -- 0
-substring$ -- 932
-swap$ -- 108
+substring$ -- 996
+swap$ -- 2295
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 186
+type$ -- 0
 warning$ -- 0
-while$ -- 104
-width$ -- 0
-write$ -- 344
+while$ -- 91
+width$ -- 36
+write$ -- 346

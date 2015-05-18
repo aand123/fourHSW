@@ -1,183 +1,184 @@
-\begin{thebibliography}{00}
-
-\bibitem{abbott:1956}
-Abbott, M.~R.: 1956, `A theory of the propagation of bores in channels and
-  rivers'.
-\newblock {\em Proc. Camb. Phil. Soc.} {\bf 52}, 344--362.
-
-\bibitem{aimen+michelle+theodore:1998}
-Aimen, S., T. Michelle, and W. Theodore: 1998, `Propagation of solitary waves
-  through significantly curved shallow water channels'.
-\newblock {\em J. Fluid Mech.} {\bf 362}, 157--176.
-
-\bibitem{Andersson:2006}
-Andersson, A.: 2006, `Using a zipper algorithm to find a conformal map for a
-  channel with smooth boundary'.
-\newblock In: {\em AIP Conference Proceedings: 2nd Conference on Mathematical
-  Modeling of Wave Phenomena}, Vol. 834. pp. 3--12.
-
-\bibitem{andersson-outpol:2008}
-Andersson, A.: 2008, `Schwarz--{C}hristoffel Mappings for Nonpolygonal
-  Regions'.
-\newblock {\em SIAM J. Sci. Comput.} {\bf 31}(1), 94--111.
-
-\bibitem{andersson-acf:2009}
-Andersson, A.: 2009, `Modified {S}chwarz-{C}hristoffel mappings using
-  approximate curve factors'.
-\newblock {\em J. Comp. Appl. Math.} {\bf 233}(4), 1117 -- 1127.
-
-\bibitem{Andersson-Nilsson:2009}
-Andersson, A. and B. Nilsson: 2009, `Electro-magnetic scattering in variously
-  shaped waveguides with an impedance condition'.
-\newblock In: {\em AIP Conference Proceedings: 3rd Conference on Mathematical
-  Modeling of Wave Phenomena}, Vol. 1106. pp. 36--45.
-
-\bibitem{AndriulliCoolsOlyslagerMichielssen2008}
-Andriulli, F.~P., K. Cools, F. Olyslager, and E. Michielssen: 2008, `The
-  Dot-trick TDEFIE: A DC stable integral equation for analyzing transient
-  scattering from PEC bodies'.
-\newblock In: {\em IEEE Int. AP-S Symp.}, Vol.~4.
-
-\bibitem{Bari:1944}
-Bari, N.: 1944, `Sur les syst${\rm \grave{e}}$mes complets de functions
-  orthogonales'.
-\newblock {\em Mat. {S}bornik} {\bf 14}(56), 51--108.
-
-\bibitem{bironilsson2005}
-Biro, T. and B. Nilsson: 2005, `Multiple scattering of microwaves from septum
-  discontinuities in a circular bend'.
-\newblock {\em Wave Motion} {\bf 42}, 109--125.
-
-\bibitem{briggs1964}
-Briggs, R.~J.: 1964, {\em Electron-stream interaction with plasmas}, No.~29 in
-  Res. Monogr.
-\newblock Cambridge, Mass.: M.I.T. Press.
-
-\bibitem{buyukaksoycinar2005}
-B\"uy\"ukaksoy, A. and G. Cinar: 2005, `Solution of a matrix Wiener–Hopf
-  equation connected with the plane wave diffaction by an impedance loaded
-  parallel plate waveguide'.
-\newblock {\em Mathematical Methods in the applied Sciences} {\bf 28},
-  1633--1645.
-
-\bibitem{chew2014}
-Chew, W.~C.: 2014, `Vector potential electromagnetic theory with generalized
-  gauge for inhomogeneous anisotropic media'.
-\newblock arXiv:physics-ph/1406.4780.
-
-\bibitem{Christensson:2003}
-Christensson, O.: 2003, {\em An {I}ntroduction to {F}rames and {R}iesz
-  {B}ases}.
-\newblock Boston: Birkh\"{a}user.
-
-\bibitem{sctoolbox}
-Driscoll, T.~A.: 1994-2003, `Schwarz--{C}hristoffel {t}oolbox for {M}atlab'.
-\newblock Available from \url{http://www.math.udel.edu/~driscoll/SC/}.
-
-\bibitem{Fishman:1998}
-Fishman, L., A.~K. Gautesen, and Z. Sun: 1998, `An exact, well-posed, one-way
-  reformulation of the {H}elmholtz equation with application to direct and
-  inverse wave propagation modeling'.
-\newblock In: {\em New Perspectives on Problems in Classical and Quantum
-  Physics: A Festschrift in Honor of Herbert \"Uberall}.
-\newblock CRC Press, pp. 75--97.
-
-\bibitem{Ihlenburg:1998}
-Ihlenburg, F.: 1998, {\em Finite element analysis of acoustic scattering}, Vol.
-  132 of {\em Applied Mathematical Sciences}.
-\newblock Springer-Verlag, New York.
-
-\bibitem{ives+liutermoza:1977}
-Ives, D. and J. Liutermoza: 1977, `Analysis of Transonic Cascade Flow Using
-  Conformal Mapping and Relaxation Techniques'.
-\newblock {\em AIAA Journal} {\bf 15}(5), 647--652.
-
-\bibitem{jin:2010}
-Jin, J.-M.: 2010, {\em Theory and computation of electromagnetic fields}.
-\newblock Hoboken, NJ, USA: Wiley-IEEE Press.
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
 
 \bibitem{jones1986}
-Jones, D.~S.: 1986, {\em Acoustic and electromagnetic waves}.
-\newblock Oxford {U}niversity press, Oxford.
+Jones, D.S. (1986) Acoustic and electromagnetic waves.
+\newblock Oxford {U}niversity press, Oxford
 
-\bibitem{kerns1949}
-Kerns, D.~M.: 1949, `Basis of the application of network equations to waveguide
-  problems'.
-\newblock {\em J. Res. natn. Bur. Stand.} {\bf 42}, 515--540.
-
-\bibitem{Li-Kahan:2012}
-Li, R.-C. and W. Kahan: 2012, `A family of anadromic numerical methods for
-  matrix {R}iccati differential equations'.
-\newblock {\em Math. Comp.} {\bf 81}(277), 233--265.
+\bibitem{jin:2010}
+Jin, J.M. (2010) Theory and computation of electromagnetic fields.
+\newblock Wiley-IEEE Press, Hoboken, NJ, USA
 
 \bibitem{londegan+carini+murdock:1999}
-Londegan, J.~T., J.~P. Carini, and D.~P. Murdock: 1999, {\em Binding and
-  scattering in two-dimensional systems - Applications to quantum wires,
-  waveguides and photonic crystals}, Lecture notes in physics.
-\newblock Berlin, Germany: Springer.
+Londegan, J.T., Carini, J.P., Murdock, D.P. (1999) Binding and scattering in
+  two-dimensional systems - Applications to quantum wires, waveguides and
+  photonic crystals.
+\newblock Lecture notes in physics. Springer, Berlin, Germany
 
-\bibitem{Lu:1999}
-Lu, Y.~Y.: 1999, `Exact one-way methods for acoustic waveguides'.
-\newblock {\em Math. Comput. Simulation} {\bf 50}(5-6), 377--391.
+\bibitem{abbott:1956}
+Abbott, M.R. (1956) A theory of the propagation of bores in channels and
+  rivers.
+\newblock Proc. Camb. Phil. Soc. \textbf{52}: 344--362
 
-\bibitem{lu+mclaughlin:2000}
-Lu, Y.~Y. and J.~R. Mclaughlin: 2000, `Propagation in Helmholtz Waveguides
-  using DtN and NtD Maps'.
-\newblock Report, City University of Hong Kong.
-
-\bibitem{maurel+mercier+felix:2014}
-Maurel, A., J.-F. Mercier, and S. F\'elix: 2014, `Propagation in waveguides
-  with varying cross-section and curvature: A new light on the role of
-  supplementary modes in multimodal methods'.
-\newblock {\em Proc. R. Soc. A} {\bf 470}, 20130743.
+\bibitem{aimen+michelle+theodore:1998}
+Aimen, S., Michelle, T., Theodore, W. (1998) Propagation of solitary waves
+  through significantly curved shallow water channels.
+\newblock J. Fluid Mech. \textbf{362}: 157--176
 
 \bibitem{mittralee1971}
-Mittra, R. and S.~W. Lee: 1971, {\em Analytical techniques in the theory of
-  guided waves}.
-\newblock New York, NY, USA: McMillan.
-
-\bibitem{muskhelishvili:1962}
-Muskhelishvili, N.~I.: 1962,1975, {\em Some basic problems of the mathematical
-  theory of elasticity : {F}undamental equations, plane theory of elasticity,
-  torsion and bending}.
-\newblock Leyden: Noordhoff.
-
-\bibitem{nachbin+daSilvaSimoes:2012}
-Nachbin, A. and V. da~Silva Sim\~oes: 2012, `Solitary waves in open channels
-  with abrupt turns and branching points'.
-\newblock {\em Journal of Nonlinear mathematical Physics} {\bf 19}, 116--136.
-
-\bibitem{Nilsson:2002}
-Nilsson, B.: 2002, `Acoustic transmission in curved ducts with various
-  cross-sections'.
-\newblock {\em Proc. R. Soc. Lond. A} {\bf 458}, 1555--1574.
-
-\bibitem{nilssonbrander1980a}
-Nilsson, B. and O. Brander: 1980, `The propagation of sound in cylindrical
-  ducts with mean flow and bulk reacting lining - {I}. {M}odes in an infinite
-  duct'.
-\newblock {\em J. Inst. Maths. Applics} {\bf 26}, 269--298.
+Mittra, R., Lee, S.W. (1971) Analytical techniques in the theory of guided
+  waves.
+\newblock McMillan, New York, NY, USA
 
 \bibitem{nilssonbrander1981b}
-Nilsson, B. and O. Brander: 1981, `The propagation of sound in cylindrical
-  ducts with mean flow and bulk reacting lining - {IV}. {S}everal interacting
-  discontinuities'.
-\newblock {\em IMA J. Appl. Math} {\bf 27}, 263--289.
+Nilsson, B., Brander, O. (1981) The propagation of sound in cylindrical ducts
+  with mean flow and bulk reacting lining - {IV}. {S}everal interacting
+  discontinuities.
+\newblock IMA J. Appl. Math \textbf{27}: 263--289
 
-\bibitem{pendryschurigsmith2006}
-Pendry, J.~B., D. Schurig, and D.~R. Smith: 2006, `Controlling electromagnetic
-  fields'.
-\newblock {\em Science} {\bf 312}, 1780--1782.
+\bibitem{bironilsson2005}
+Biro, T., Nilsson, B. (2005) Multiple scattering of microwaves from septum
+  discontinuities in a circular bend.
+\newblock Wave Motion \textbf{42}: 109--125
 
-\bibitem{Schwartz:1954}
-Schwartz, J.: 1954, `Perturbations of spectral operators, and applications,
-  {I}. Bounded perturbations ({L}emma 14)'.
-\newblock {\em Pacific J. of Math.} {\bf 4}, 415--458.
+\bibitem{buyukaksoycinar2005}
+B\"uy\"ukaksoy, A., Cinar, G. (2005) Solution of a matrix wiener–hopf
+  equation connected with the plane wave diffaction by an impedance loaded
+  parallel plate waveguide.
+\newblock Mathematical Methods in the applied Sciences \textbf{28}: 1633--1645
 
 \bibitem{zienkiewicz+taylor+zhu:2008}
-Zienkiewicz, O.~C., R.~L. Taylor, and J.~Z. Zhu: 2013, {\em The Finite Element
-  Method: Its Basis and FundamentalsAnalytical techniques in the theory of
-  guided waves}.
-\newblock Oxford, UK: Butterworth--Heinemann.
+Zienkiewicz, O.C., Taylor, R.L., Zhu, J.Z. (2013) The Finite Element Method:
+  Its Basis and FundamentalsAnalytical techniques in the theory of guided
+  waves.
+\newblock Butterworth--Heinemann, Oxford, UK
+
+\bibitem{Ihlenburg:1998}
+Ihlenburg, F. (1998) Finite element analysis of acoustic scattering,
+  \emph{Applied Mathematical Sciences}, vol. 132.
+\newblock Springer-Verlag, New York.
+\newblock \doi{10.1007/b98828}
+
+\bibitem{muskhelishvili:1962}
+Muskhelishvili, N.I. (1962,1975) Some basic problems of the mathematical
+  theory of elasticity : {F}undamental equations, plane theory of elasticity,
+  torsion and bending.
+\newblock Noordhoff, Leyden
+
+\bibitem{ives+liutermoza:1977}
+Ives, D., Liutermoza, J. (1977) Analysis of transonic cascade flow using
+  conformal mapping and relaxation techniques.
+\newblock AIAA Journal \textbf{15}(5): 647--652
+
+\bibitem{sctoolbox}
+Driscoll, T.A. (1994-2003) Schwarz--{C}hristoffel {t}oolbox for {M}atlab.
+\newblock Available from \url{http://www.math.udel.edu/~driscoll/SC/}
+
+
+\bibitem{andersson-outpol:2008}
+Andersson, A. (2008) Schwarz--{C}hristoffel mappings for nonpolygonal regions.
+\newblock SIAM J. Sci. Comput. \textbf{31}(1): 94--111
+
+\bibitem{andersson-acf:2009}
+Andersson, A. (2009) Modified {S}chwarz-{C}hristoffel mappings using
+  approximate curve factors.
+\newblock J. Comp. Appl. Math. \textbf{233}(4): 1117 -- 1127
+
+\bibitem{Andersson:2006}
+Andersson, A. (2006) Using a zipper algorithm to find a conformal map for a channel with smooth boundary.
+\newblock In: AIP Conference Proceedings: 2nd Conference on Mathematical
+  Modeling of Wave Phenomena, vol. 834, pp. 3--12. AIP 
+
+\bibitem{Andersson-Nilsson:2009}
+Andersson, A., Nilsson, B. (2009) Electro-magnetic scattering in variously shaped waveguides with an impedance condition.
+\newblock In: AIP Conference Proceedings: 3rd Conference on Mathematical
+  Modeling of Wave Phenomena, vol. 1106, pp. 36--45. AIP
+
+\bibitem{nachbin+daSilvaSimoes:2012}
+Nachbin, A., da~Silva Sim\~oes, V. (2012) Solitary waves in open channels with
+  abrupt turns and branching points.
+\newblock Journal of Nonlinear mathematical Physics \textbf{19}: 116--136
+
+\bibitem{Fishman:1998}
+Fishman, L., Gautesen, A.K., Sun, Z. (1998) An exact, well-posed, one-way
+  reformulation of the {H}elmholtz equation with application to direct and
+  inverse wave propagation modeling.
+\newblock In: New Perspectives on Problems in Classical and Quantum Physics: A
+  Festschrift in Honor of Herbert \"Uberall, pp. 75--97. CRC Press
+
+\bibitem{Nilsson:2002}
+Nilsson, B. (2002) Acoustic transmission in curved ducts with various
+  cross-sections.
+\newblock Proc. R. Soc. Lond. A \textbf{458}: 1555--1574
+
+\bibitem{pendryschurigsmith2006}
+Pendry, J.B., Schurig, D., Smith, D.R. (2006) Controlling electromagnetic
+  fields.
+\newblock Science \textbf{312}: 1780--1782
+
+\bibitem{maurel+mercier+felix:2014}
+Maurel, A., Mercier, J.F., F\'elix, S. (2014) Propagation in waveguides with
+  varying cross-section and curvature: A new light on the role of supplementary
+  modes in multimodal methods.
+\newblock Proc. R. Soc. A \textbf{470}: 20130,743
+
+\bibitem{nilssonbrander1980a}
+Nilsson, B., Brander, O. (1980) The propagation of sound in cylindrical ducts
+  with mean flow and bulk reacting lining - {I}. {M}odes in an infinite duct.
+\newblock J. Inst. Maths. Applics \textbf{26}: 269--298
+
+\bibitem{briggs1964}
+Briggs, R.J. (1964) Electron-stream interaction with plasmas.
+\newblock No.~29 in Res. Monogr. M.I.T. Press, Cambridge, Mass.
+
+\bibitem{Schwartz:1954}
+Schwartz, J. (1954) Perturbations of spectral operators, and applications,
+  {I}. bounded perturbations ({L}emma 14).
+\newblock Pacific J. of Math. \textbf{4}: 415--458
+
+\bibitem{Bari:1944}
+Bari, N. (1944) Sur les syst${\rm \grave{e}}$mes complets de functions
+  orthogonales.
+\newblock Mat. {S}bornik \textbf{14}(56): 51--108
+
+\bibitem{Christensson:2003}
+Christensson, O. (2003) An {I}ntroduction to {F}rames and {R}iesz {B}ases.
+\newblock Birkh\"{a}user, Boston
+
+\bibitem{Lu:1999}
+Lu, Y.Y. (1999) Exact one-way methods for acoustic waveguides.
+\newblock Math. Comput. Simulation \textbf{50}(5-6): 377--391
+
+\bibitem{lu+mclaughlin:2000}
+Lu, Y.Y., Mclaughlin, J.R. (2000) Propagation in helmholtz waveguides using dtn and ntd maps.
+\newblock Report, City University of Hong Kong
+
+\bibitem{Li-Kahan:2012}
+Li, R.C., Kahan, W. (2012) A family of anadromic numerical methods for matrix
+  {R}iccati differential equations.
+\newblock Math. Comp. \textbf{81}(277): 233--265.
+\newblock \doi{10.1090/S0025-5718-2011-02498-1}.
+\newblock \urlprefix\url{http://dx.doi.org/10.1090/S0025-5718-2011-02498-1}
+
+\bibitem{kerns1949}
+Kerns, D.M. (1949) Basis of the application of network equations to waveguide
+  problems.
+\newblock J. Res. natn. Bur. Stand. \textbf{42}: 515--540
+
+\bibitem{AndriulliCoolsOlyslagerMichielssen2008}
+Andriulli, F.P., Cools, K., Olyslager, F., Michielssen, E. (2008) The dot-trick
+  tdefie: A dc stable integral equation for analyzing transient scattering from
+  pec bodies.
+\newblock In: IEEE Int. AP-S Symp., vol.~4
+
+\bibitem{chew2014}
+Chew, W.C. (2014) Vector potential electromagnetic theory with generalized gauge for
+  inhomogeneous anisotropic media.
+\newblock arXiv:physics-ph/1406.4780
 
 \end{thebibliography}
